@@ -1,0 +1,8 @@
+[
+ {
+  "file": "/Users/Brwong/Desktop/iOS Apps/On The Map/On The Map/UdacityConvenience.swift",
+  "offset": 839,
+  "remove": 1339,
+  "text": "username username: String?, password: String?, completionHandler: (success: Bool, errorString: String?) -> Void){\n        \n        let jsonBody: [String:[String:AnyObject]] = [\n            JSONBodyKeys.Udacity:[\n                JSONBodyKeys.Username : username!,\n                JSONBodyKeys.Password : password!\n            ]\n        ]\n        \n        let task = taskForLogin(jsonBody, completionHandler: { (result, error) -> Void in\n            if let error = error{\n                print(\"Login Error (Couldn't authenticate)\")\n                print(error)\n            }else{\n                if let loginSuccess: AnyObject = result{\n                    let validUser = loginSuccess.valueForKey(JSONResponseKeys.AccountLogin) as? NSDictionary\n                    if (validUser != nil){\n                        \n                        //Used to retrieve public user data to pass to Parse\n                        self.userID = loginSuccess.valueForKey(JSONResponseKeys.AccountLogin)!.valueForKey(JSONResponseKeys.UserID) as? String //User ID for Parse API\n                        \n                        completionHandler(success: true, errorString: nil)\n                    }else{\n                        //Invalid username/password\n                        completionHandler(success: false, errorString: nil)\n                        print",
+ }
+]

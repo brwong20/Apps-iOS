@@ -1,0 +1,5 @@
+version: "Apple Swift version 2.1 (swiftlang-700.1.101.6 clang-700.1.76)"
+options: "b435ff7d119d4aba87aaa68482ae09bd"
+build_time: [503091345, 316663000]
+inputs:
+  "/Users/Brwong/Desktop/iOS Apps/On The Map/On The MapTests/On_The_MapTests.swift": [495580454, 0]

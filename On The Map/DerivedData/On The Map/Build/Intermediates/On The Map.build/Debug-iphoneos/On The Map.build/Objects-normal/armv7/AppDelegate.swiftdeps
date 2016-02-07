@@ -1,0 +1,290 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "AppDelegate"
+provides-nominal:
+- "C10On_The_Map11AppDelegate"
+provides-member:
+- ["C10On_The_Map11AppDelegate", ""]
+provides-dynamic-lookup:
+- "application"
+- "application"
+- "window"
+- "applicationDidEnterBackground"
+- "applicationWillTerminate"
+- "applicationWillResignActive"
+- "applicationDidBecomeActive"
+- "applicationWillEnterForeground"
+depends-top-level:
+- "String"
+- "AnyObject"
+- "UIApplicationDelegate"
+- "NSURL"
+- "UIResponder"
+- "AppDelegate"
+- "UIWindow"
+- "NSObject"
+- !private "FBSDKApplicationDelegate"
+- "UIApplication"
+- "Bool"
+depends-member:
+- !private ["PSs9AnyObject", "FBSDKApplicationDelegate"]
+- ["PSs9AnyObject", "application"]
+- ["PSs9AnyObject", "applicationDidBecomeActive"]
+- ["PSs9AnyObject", "applicationDidEnterBackground"]
+- ["PSs9AnyObject", "applicationDidFinishLaunching"]
+- ["PSs9AnyObject", "applicationDidReceiveMemoryWarning"]
+- ["PSs9AnyObject", "applicationProtectedDataDidBecomeAvailable"]
+- ["PSs9AnyObject", "applicationProtectedDataWillBecomeUnavailable"]
+- ["PSs9AnyObject", "applicationShouldRequestHealthAuthorization"]
+- ["PSs9AnyObject", "applicationSignificantTimeChange"]
+- ["PSs9AnyObject", "applicationWillEnterForeground"]
+- ["PSs9AnyObject", "applicationWillResignActive"]
+- ["PSs9AnyObject", "applicationWillTerminate"]
+- ["PSs9AnyObject", "init"]
+- !private ["PSs9AnyObject", "sharedInstance"]
+- ["PSs9AnyObject", "window"]
+- ["PSs9AnyObject", ""]
+- ["C10On_The_Map11AppDelegate", "AnyObject"]
+- ["C10On_The_Map11AppDelegate", "Bool"]
+- !private ["C10On_The_Map11AppDelegate", "FBSDKApplicationDelegate"]
+- ["C10On_The_Map11AppDelegate", "NSObject"]
+- ["C10On_The_Map11AppDelegate", "NSURL"]
+- ["C10On_The_Map11AppDelegate", "String"]
+- ["C10On_The_Map11AppDelegate", "UIApplication"]
+- ["C10On_The_Map11AppDelegate", "UIWindow"]
+- ["C10On_The_Map11AppDelegate", "application"]
+- ["C10On_The_Map11AppDelegate", "applicationDidBecomeActive"]
+- ["C10On_The_Map11AppDelegate", "applicationDidEnterBackground"]
+- ["C10On_The_Map11AppDelegate", "applicationDidFinishLaunching"]
+- ["C10On_The_Map11AppDelegate", "applicationDidReceiveMemoryWarning"]
+- ["C10On_The_Map11AppDelegate", "applicationProtectedDataDidBecomeAvailable"]
+- ["C10On_The_Map11AppDelegate", "applicationProtectedDataWillBecomeUnavailable"]
+- ["C10On_The_Map11AppDelegate", "applicationShouldRequestHealthAuthorization"]
+- ["C10On_The_Map11AppDelegate", "applicationSignificantTimeChange"]
+- ["C10On_The_Map11AppDelegate", "applicationWillEnterForeground"]
+- ["C10On_The_Map11AppDelegate", "applicationWillResignActive"]
+- ["C10On_The_Map11AppDelegate", "applicationWillTerminate"]
+- ["C10On_The_Map11AppDelegate", "deinit"]
+- ["C10On_The_Map11AppDelegate", "init"]
+- ["C10On_The_Map11AppDelegate", "window"]
+- !private ["PSs11CVarArgType", "FBSDKApplicationDelegate"]
+- ["PSs11CVarArgType", "application"]
+- ["PSs11CVarArgType", "applicationDidBecomeActive"]
+- ["PSs11CVarArgType", "applicationDidEnterBackground"]
+- ["PSs11CVarArgType", "applicationDidFinishLaunching"]
+- ["PSs11CVarArgType", "applicationDidReceiveMemoryWarning"]
+- ["PSs11CVarArgType", "applicationProtectedDataDidBecomeAvailable"]
+- ["PSs11CVarArgType", "applicationProtectedDataWillBecomeUnavailable"]
+- ["PSs11CVarArgType", "applicationShouldRequestHealthAuthorization"]
+- ["PSs11CVarArgType", "applicationSignificantTimeChange"]
+- ["PSs11CVarArgType", "applicationWillEnterForeground"]
+- ["PSs11CVarArgType", "applicationWillResignActive"]
+- ["PSs11CVarArgType", "applicationWillTerminate"]
+- ["PSs11CVarArgType", "init"]
+- !private ["PSs11CVarArgType", "sharedInstance"]
+- ["PSs11CVarArgType", "window"]
+- ["PSs11CVarArgType", ""]
+- !private ["PSs23CustomStringConvertible", "FBSDKApplicationDelegate"]
+- ["PSs23CustomStringConvertible", "application"]
+- ["PSs23CustomStringConvertible", "applicationDidBecomeActive"]
+- ["PSs23CustomStringConvertible", "applicationDidEnterBackground"]
+- ["PSs23CustomStringConvertible", "applicationDidFinishLaunching"]
+- ["PSs23CustomStringConvertible", "applicationDidReceiveMemoryWarning"]
+- ["PSs23CustomStringConvertible", "applicationProtectedDataDidBecomeAvailable"]
+- ["PSs23CustomStringConvertible", "applicationProtectedDataWillBecomeUnavailable"]
+- ["PSs23CustomStringConvertible", "applicationShouldRequestHealthAuthorization"]
+- ["PSs23CustomStringConvertible", "applicationSignificantTimeChange"]
+- ["PSs23CustomStringConvertible", "applicationWillEnterForeground"]
+- ["PSs23CustomStringConvertible", "applicationWillResignActive"]
+- ["PSs23CustomStringConvertible", "applicationWillTerminate"]
+- ["PSs23CustomStringConvertible", "init"]
+- !private ["PSs23CustomStringConvertible", "sharedInstance"]
+- ["PSs23CustomStringConvertible", "window"]
+- ["PSs23CustomStringConvertible", ""]
+- !private ["PSs9Equatable", "FBSDKApplicationDelegate"]
+- ["PSs9Equatable", "application"]
+- ["PSs9Equatable", "applicationDidBecomeActive"]
+- ["PSs9Equatable", "applicationDidEnterBackground"]
+- ["PSs9Equatable", "applicationDidFinishLaunching"]
+- ["PSs9Equatable", "applicationDidReceiveMemoryWarning"]
+- ["PSs9Equatable", "applicationProtectedDataDidBecomeAvailable"]
+- ["PSs9Equatable", "applicationProtectedDataWillBecomeUnavailable"]
+- ["PSs9Equatable", "applicationShouldRequestHealthAuthorization"]
+- ["PSs9Equatable", "applicationSignificantTimeChange"]
+- ["PSs9Equatable", "applicationWillEnterForeground"]
+- ["PSs9Equatable", "applicationWillResignActive"]
+- ["PSs9Equatable", "applicationWillTerminate"]
+- ["PSs9Equatable", "init"]
+- !private ["PSs9Equatable", "sharedInstance"]
+- ["PSs9Equatable", "window"]
+- ["PSs9Equatable", ""]
+- !private ["CSo24FBSDKApplicationDelegate", "application"]
+- !private ["CSo24FBSDKApplicationDelegate", "sharedInstance"]
+- !private ["PSs8Hashable", "FBSDKApplicationDelegate"]
+- ["PSs8Hashable", "application"]
+- ["PSs8Hashable", "applicationDidBecomeActive"]
+- ["PSs8Hashable", "applicationDidEnterBackground"]
+- ["PSs8Hashable", "applicationDidFinishLaunching"]
+- ["PSs8Hashable", "applicationDidReceiveMemoryWarning"]
+- ["PSs8Hashable", "applicationProtectedDataDidBecomeAvailable"]
+- ["PSs8Hashable", "applicationProtectedDataWillBecomeUnavailable"]
+- ["PSs8Hashable", "applicationShouldRequestHealthAuthorization"]
+- ["PSs8Hashable", "applicationSignificantTimeChange"]
+- ["PSs8Hashable", "applicationWillEnterForeground"]
+- ["PSs8Hashable", "applicationWillResignActive"]
+- ["PSs8Hashable", "applicationWillTerminate"]
+- ["PSs8Hashable", "init"]
+- !private ["PSs8Hashable", "sharedInstance"]
+- ["PSs8Hashable", "window"]
+- ["PSs8Hashable", ""]
+- ["CSo8NSObject", "AnyObject"]
+- ["CSo8NSObject", "Bool"]
+- !private ["CSo8NSObject", "FBSDKApplicationDelegate"]
+- ["CSo8NSObject", "NSObject"]
+- ["CSo8NSObject", "NSURL"]
+- ["CSo8NSObject", "String"]
+- ["CSo8NSObject", "UIApplication"]
+- ["CSo8NSObject", "UIWindow"]
+- ["CSo8NSObject", "application"]
+- ["CSo8NSObject", "applicationDidBecomeActive"]
+- ["CSo8NSObject", "applicationDidEnterBackground"]
+- ["CSo8NSObject", "applicationDidFinishLaunching"]
+- ["CSo8NSObject", "applicationDidReceiveMemoryWarning"]
+- ["CSo8NSObject", "applicationProtectedDataDidBecomeAvailable"]
+- ["CSo8NSObject", "applicationProtectedDataWillBecomeUnavailable"]
+- ["CSo8NSObject", "applicationShouldRequestHealthAuthorization"]
+- ["CSo8NSObject", "applicationSignificantTimeChange"]
+- ["CSo8NSObject", "applicationWillEnterForeground"]
+- ["CSo8NSObject", "applicationWillResignActive"]
+- ["CSo8NSObject", "applicationWillTerminate"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "sharedInstance"]
+- ["CSo8NSObject", "window"]
+- !private ["PSo16NSObjectProtocol", "FBSDKApplicationDelegate"]
+- ["PSo16NSObjectProtocol", "application"]
+- ["PSo16NSObjectProtocol", "applicationDidBecomeActive"]
+- ["PSo16NSObjectProtocol", "applicationDidEnterBackground"]
+- ["PSo16NSObjectProtocol", "applicationDidFinishLaunching"]
+- ["PSo16NSObjectProtocol", "applicationDidReceiveMemoryWarning"]
+- ["PSo16NSObjectProtocol", "applicationProtectedDataDidBecomeAvailable"]
+- ["PSo16NSObjectProtocol", "applicationProtectedDataWillBecomeUnavailable"]
+- ["PSo16NSObjectProtocol", "applicationShouldRequestHealthAuthorization"]
+- ["PSo16NSObjectProtocol", "applicationSignificantTimeChange"]
+- ["PSo16NSObjectProtocol", "applicationWillEnterForeground"]
+- ["PSo16NSObjectProtocol", "applicationWillResignActive"]
+- ["PSo16NSObjectProtocol", "applicationWillTerminate"]
+- ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "sharedInstance"]
+- ["PSo16NSObjectProtocol", "window"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo21UIApplicationDelegate", "FBSDKApplicationDelegate"]
+- ["PSo21UIApplicationDelegate", "application"]
+- ["PSo21UIApplicationDelegate", "applicationDidBecomeActive"]
+- ["PSo21UIApplicationDelegate", "applicationDidEnterBackground"]
+- ["PSo21UIApplicationDelegate", "applicationDidFinishLaunching"]
+- ["PSo21UIApplicationDelegate", "applicationDidReceiveMemoryWarning"]
+- ["PSo21UIApplicationDelegate", "applicationProtectedDataDidBecomeAvailable"]
+- ["PSo21UIApplicationDelegate", "applicationProtectedDataWillBecomeUnavailable"]
+- ["PSo21UIApplicationDelegate", "applicationShouldRequestHealthAuthorization"]
+- ["PSo21UIApplicationDelegate", "applicationSignificantTimeChange"]
+- ["PSo21UIApplicationDelegate", "applicationWillEnterForeground"]
+- ["PSo21UIApplicationDelegate", "applicationWillResignActive"]
+- ["PSo21UIApplicationDelegate", "applicationWillTerminate"]
+- ["PSo21UIApplicationDelegate", "window"]
+- ["PSo21UIApplicationDelegate", ""]
+- ["CSo11UIResponder", "AnyObject"]
+- ["CSo11UIResponder", "Bool"]
+- !private ["CSo11UIResponder", "FBSDKApplicationDelegate"]
+- ["CSo11UIResponder", "NSObject"]
+- ["CSo11UIResponder", "NSURL"]
+- ["CSo11UIResponder", "String"]
+- ["CSo11UIResponder", "UIApplication"]
+- ["CSo11UIResponder", "UIWindow"]
+- ["CSo11UIResponder", "application"]
+- ["CSo11UIResponder", "applicationDidBecomeActive"]
+- ["CSo11UIResponder", "applicationDidEnterBackground"]
+- ["CSo11UIResponder", "applicationDidFinishLaunching"]
+- ["CSo11UIResponder", "applicationDidReceiveMemoryWarning"]
+- ["CSo11UIResponder", "applicationProtectedDataDidBecomeAvailable"]
+- ["CSo11UIResponder", "applicationProtectedDataWillBecomeUnavailable"]
+- ["CSo11UIResponder", "applicationShouldRequestHealthAuthorization"]
+- ["CSo11UIResponder", "applicationSignificantTimeChange"]
+- ["CSo11UIResponder", "applicationWillEnterForeground"]
+- ["CSo11UIResponder", "applicationWillResignActive"]
+- ["CSo11UIResponder", "applicationWillTerminate"]
+- ["CSo11UIResponder", "init"]
+- ["CSo11UIResponder", "window"]
+- ["CSo11UIResponder", ""]
+depends-nominal:
+- "PSs9AnyObject"
+- "C10On_The_Map11AppDelegate"
+- "PSs11CVarArgType"
+- "PSs23CustomStringConvertible"
+- "PSs9Equatable"
+- !private "CSo24FBSDKApplicationDelegate"
+- "PSs8Hashable"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "PSo21UIApplicationDelegate"
+- "CSo11UIResponder"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Swift.swiftmodule"
+- "/Users/Brwong/Desktop/iOS Apps/On The Map/On The Map/On The Map-Bridging-Header.h"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreLocation.swiftmodule"
+- "/Users/Brwong/Downloads/FacebookSDKs-iOS-20150910/Bolts.framework/Headers/BFWebViewAppLinkResolver.h"
+- "/Users/Brwong/Downloads/FacebookSDKs-iOS-20150910/Bolts.framework/Headers/BFURL.h"
+- "/Users/Brwong/Downloads/FacebookSDKs-iOS-20150910/Bolts.framework/Headers/BFMeasurementEvent.h"
+- "/Users/Brwong/Downloads/FacebookSDKs-iOS-20150910/Bolts.framework/Headers/BFAppLinkTarget.h"
+- "/Users/Brwong/Downloads/FacebookSDKs-iOS-20150910/Bolts.framework/Headers/BFAppLinkReturnToRefererView.h"
+- "/Users/Brwong/Downloads/FacebookSDKs-iOS-20150910/Bolts.framework/Headers/BFAppLinkReturnToRefererController.h"
+- "/Users/Brwong/Downloads/FacebookSDKs-iOS-20150910/Bolts.framework/Headers/BFAppLinkResolving.h"
+- "/Users/Brwong/Downloads/FacebookSDKs-iOS-20150910/Bolts.framework/Headers/BFAppLink.h"
+- "/Users/Brwong/Downloads/FacebookSDKs-iOS-20150910/Bolts.framework/Headers/BFAppLinkNavigation.h"
+- "/Users/Brwong/Downloads/FacebookSDKs-iOS-20150910/Bolts.framework/Headers/BFTaskCompletionSource.h"
+- "/Users/Brwong/Downloads/FacebookSDKs-iOS-20150910/Bolts.framework/Headers/BFTask.h"
+- "/Users/Brwong/Downloads/FacebookSDKs-iOS-20150910/Bolts.framework/Headers/BFExecutor.h"
+- "/Users/Brwong/Downloads/FacebookSDKs-iOS-20150910/Bolts.framework/Headers/BFDefines.h"
+- "/Users/Brwong/Downloads/FacebookSDKs-iOS-20150910/Bolts.framework/Headers/BFCancellationTokenSource.h"
+- "/Users/Brwong/Downloads/FacebookSDKs-iOS-20150910/Bolts.framework/Headers/BFCancellationTokenRegistration.h"
+- "/Users/Brwong/Downloads/FacebookSDKs-iOS-20150910/Bolts.framework/Headers/BFCancellationToken.h"
+- "/Users/Brwong/Downloads/FacebookSDKs-iOS-20150910/Bolts.framework/Headers/BoltsVersion.h"
+- "/Users/Brwong/Downloads/FacebookSDKs-iOS-20150910/Bolts.framework/Headers/Bolts.h"
+- "/Users/Brwong/Downloads/FacebookSDKs-iOS-20150910/Bolts.framework/Modules/module.modulemap"
+- "/Users/Brwong/Downloads/FacebookSDKs-iOS-20150910/FBSDKCoreKit.framework/Headers/FBSDKGraphRequestDataAttachment.h"
+- "/Users/Brwong/Downloads/FacebookSDKs-iOS-20150910/FBSDKCoreKit.framework/Headers/FBSDKGraphErrorRecoveryProcessor.h"
+- "/Users/Brwong/Downloads/FacebookSDKs-iOS-20150910/FBSDKCoreKit.framework/Headers/FBSDKAppLinkResolver.h"
+- "/Users/Brwong/Downloads/FacebookSDKs-iOS-20150910/FBSDKCoreKit.framework/Headers/FBSDKButton.h"
+- "/Users/Brwong/Downloads/FacebookSDKs-iOS-20150910/FBSDKCoreKit.framework/Headers/FBSDKUtility.h"
+- "/Users/Brwong/Downloads/FacebookSDKs-iOS-20150910/FBSDKCoreKit.framework/Headers/FBSDKTestUsersManager.h"
+- "/Users/Brwong/Downloads/FacebookSDKs-iOS-20150910/FBSDKCoreKit.framework/Headers/FBSDKSettings.h"
+- "/Users/Brwong/Downloads/FacebookSDKs-iOS-20150910/FBSDKCoreKit.framework/Headers/FBSDKProfilePictureView.h"
+- "/Users/Brwong/Downloads/FacebookSDKs-iOS-20150910/FBSDKCoreKit.framework/Headers/FBSDKProfile.h"
+- "/Users/Brwong/Downloads/FacebookSDKs-iOS-20150910/FBSDKCoreKit.framework/Headers/FBSDKMutableCopying.h"
+- "/Users/Brwong/Downloads/FacebookSDKs-iOS-20150910/FBSDKCoreKit.framework/Headers/FBSDKGraphRequest.h"
+- "/Users/Brwong/Downloads/FacebookSDKs-iOS-20150910/FBSDKCoreKit.framework/Headers/FBSDKConstants.h"
+- "/Users/Brwong/Downloads/FacebookSDKs-iOS-20150910/FBSDKCoreKit.framework/Headers/FBSDKApplicationDelegate.h"
+- "/Users/Brwong/Downloads/FacebookSDKs-iOS-20150910/FBSDKCoreKit.framework/Headers/FBSDKAppLinkUtility.h"
+- "/Users/Brwong/Downloads/FacebookSDKs-iOS-20150910/FBSDKCoreKit.framework/Headers/FBSDKAppEvents.h"
+- "/Users/Brwong/Downloads/FacebookSDKs-iOS-20150910/FBSDKCoreKit.framework/Headers/FBSDKMacros.h"
+- "/Users/Brwong/Downloads/FacebookSDKs-iOS-20150910/FBSDKCoreKit.framework/Headers/FBSDKGraphRequestConnection.h"
+- "/Users/Brwong/Downloads/FacebookSDKs-iOS-20150910/FBSDKCoreKit.framework/Headers/FBSDKCopying.h"
+- "/Users/Brwong/Downloads/FacebookSDKs-iOS-20150910/FBSDKCoreKit.framework/Headers/FBSDKAccessToken.h"
+- "/Users/Brwong/Downloads/FacebookSDKs-iOS-20150910/FBSDKCoreKit.framework/Headers/FBSDKCoreKit.h"
+- "/Users/Brwong/Downloads/FacebookSDKs-iOS-20150910/FBSDKCoreKit.framework/Modules/module.modulemap"
+- "/Users/Brwong/Downloads/FacebookSDKs-iOS-20150910/FBSDKLoginKit.framework/Headers/FBSDKLoginTooltipView.h"
+- "/Users/Brwong/Downloads/FacebookSDKs-iOS-20150910/FBSDKLoginKit.framework/Headers/FBSDKLoginManagerLoginResult.h"
+- "/Users/Brwong/Downloads/FacebookSDKs-iOS-20150910/FBSDKLoginKit.framework/Headers/FBSDKLoginConstants.h"
+- "/Users/Brwong/Downloads/FacebookSDKs-iOS-20150910/FBSDKLoginKit.framework/Headers/FBSDKTooltipView.h"
+- "/Users/Brwong/Downloads/FacebookSDKs-iOS-20150910/FBSDKLoginKit.framework/Headers/FBSDKLoginManager.h"
+- "/Users/Brwong/Downloads/FacebookSDKs-iOS-20150910/FBSDKLoginKit.framework/Headers/FBSDKLoginButton.h"
+- "/Users/Brwong/Downloads/FacebookSDKs-iOS-20150910/FBSDKLoginKit.framework/Headers/FBSDKLoginKit.h"
+- "/Users/Brwong/Downloads/FacebookSDKs-iOS-20150910/FBSDKLoginKit.framework/Modules/module.modulemap"
+interface-hash: "826be0b199552486230efaf22a4348cb"

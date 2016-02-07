@@ -1,0 +1,132 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+- "VC10On_The_Map11ParseClient9Constants"
+- "VC10On_The_Map11ParseClient7Methods"
+- "VC10On_The_Map11ParseClient13ParameterKeys"
+- "VC10On_The_Map11ParseClient12JSONBodyKeys"
+- "VC10On_The_Map11ParseClient16JSONResponseKeys"
+provides-member:
+- ["C10On_The_Map11ParseClient", ""]
+- ["VC10On_The_Map11ParseClient9Constants", ""]
+- ["VC10On_The_Map11ParseClient7Methods", ""]
+- ["VC10On_The_Map11ParseClient13ParameterKeys", ""]
+- ["VC10On_The_Map11ParseClient12JSONBodyKeys", ""]
+- ["VC10On_The_Map11ParseClient16JSONResponseKeys", ""]
+- ["C10On_The_Map11ParseClient", "Constants"]
+- ["C10On_The_Map11ParseClient", "Methods"]
+- ["C10On_The_Map11ParseClient", "ParameterKeys"]
+- ["C10On_The_Map11ParseClient", "JSONBodyKeys"]
+- ["C10On_The_Map11ParseClient", "JSONResponseKeys"]
+provides-dynamic-lookup:
+depends-top-level:
+- "String"
+- "StringLiteralType"
+- "ParseClient"
+depends-member:
+- ["VC10On_The_Map11ParseClient9Constants", "ApplicationID"]
+- ["VC10On_The_Map11ParseClient9Constants", "RESTApiKey"]
+- ["VC10On_The_Map11ParseClient9Constants", "String"]
+- ["VC10On_The_Map11ParseClient9Constants", "init"]
+- ["VC10On_The_Map11ParseClient12JSONBodyKeys", "FirstName"]
+- ["VC10On_The_Map11ParseClient12JSONBodyKeys", "LastName"]
+- ["VC10On_The_Map11ParseClient12JSONBodyKeys", "Latitude"]
+- ["VC10On_The_Map11ParseClient12JSONBodyKeys", "Longitude"]
+- ["VC10On_The_Map11ParseClient12JSONBodyKeys", "MapString"]
+- ["VC10On_The_Map11ParseClient12JSONBodyKeys", "StudentLink"]
+- ["VC10On_The_Map11ParseClient12JSONBodyKeys", "UniqueKey"]
+- ["VC10On_The_Map11ParseClient12JSONBodyKeys", "init"]
+- ["VC10On_The_Map11ParseClient16JSONResponseKeys", "FirstName"]
+- ["VC10On_The_Map11ParseClient16JSONResponseKeys", "LastName"]
+- ["VC10On_The_Map11ParseClient16JSONResponseKeys", "Latitude"]
+- ["VC10On_The_Map11ParseClient16JSONResponseKeys", "LocationResults"]
+- ["VC10On_The_Map11ParseClient16JSONResponseKeys", "Longitude"]
+- ["VC10On_The_Map11ParseClient16JSONResponseKeys", "MapString"]
+- ["VC10On_The_Map11ParseClient16JSONResponseKeys", "MediaURL"]
+- ["VC10On_The_Map11ParseClient16JSONResponseKeys", "init"]
+- ["VC10On_The_Map11ParseClient7Methods", "QueryStudentLocation"]
+- ["VC10On_The_Map11ParseClient7Methods", "String"]
+- ["VC10On_The_Map11ParseClient7Methods", "StudentLocation"]
+- ["VC10On_The_Map11ParseClient7Methods", "UpdateStudentLocation"]
+- ["VC10On_The_Map11ParseClient7Methods", "init"]
+- ["CSo8NSObject", "String"]
+- ["VC10On_The_Map11ParseClient13ParameterKeys", "ApiKey"]
+- ["VC10On_The_Map11ParseClient13ParameterKeys", "Query"]
+- ["VC10On_The_Map11ParseClient13ParameterKeys", "RequestToken"]
+- ["VC10On_The_Map11ParseClient13ParameterKeys", "SessionID"]
+- ["VC10On_The_Map11ParseClient13ParameterKeys", "init"]
+- ["C10On_The_Map11ParseClient", "Constants"]
+- ["C10On_The_Map11ParseClient", "JSONBodyKeys"]
+- ["C10On_The_Map11ParseClient", "JSONResponseKeys"]
+- ["C10On_The_Map11ParseClient", "Methods"]
+- ["C10On_The_Map11ParseClient", "ParameterKeys"]
+- ["C10On_The_Map11ParseClient", "String"]
+depends-nominal:
+- "VC10On_The_Map11ParseClient9Constants"
+- "VC10On_The_Map11ParseClient12JSONBodyKeys"
+- "VC10On_The_Map11ParseClient16JSONResponseKeys"
+- "VC10On_The_Map11ParseClient7Methods"
+- "CSo8NSObject"
+- "VC10On_The_Map11ParseClient13ParameterKeys"
+- "C10On_The_Map11ParseClient"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/Brwong/Desktop/iOS Apps/On The Map/On The Map/On The Map-Bridging-Header.h"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
+- "/Users/Brwong/Downloads/FacebookSDKs-iOS-20150910/Bolts.framework/Headers/BFWebViewAppLinkResolver.h"
+- "/Users/Brwong/Downloads/FacebookSDKs-iOS-20150910/Bolts.framework/Headers/BFURL.h"
+- "/Users/Brwong/Downloads/FacebookSDKs-iOS-20150910/Bolts.framework/Headers/BFMeasurementEvent.h"
+- "/Users/Brwong/Downloads/FacebookSDKs-iOS-20150910/Bolts.framework/Headers/BFAppLinkTarget.h"
+- "/Users/Brwong/Downloads/FacebookSDKs-iOS-20150910/Bolts.framework/Headers/BFAppLinkReturnToRefererView.h"
+- "/Users/Brwong/Downloads/FacebookSDKs-iOS-20150910/Bolts.framework/Headers/BFAppLinkReturnToRefererController.h"
+- "/Users/Brwong/Downloads/FacebookSDKs-iOS-20150910/Bolts.framework/Headers/BFAppLinkResolving.h"
+- "/Users/Brwong/Downloads/FacebookSDKs-iOS-20150910/Bolts.framework/Headers/BFAppLink.h"
+- "/Users/Brwong/Downloads/FacebookSDKs-iOS-20150910/Bolts.framework/Headers/BFAppLinkNavigation.h"
+- "/Users/Brwong/Downloads/FacebookSDKs-iOS-20150910/Bolts.framework/Headers/BFTaskCompletionSource.h"
+- "/Users/Brwong/Downloads/FacebookSDKs-iOS-20150910/Bolts.framework/Headers/BFTask.h"
+- "/Users/Brwong/Downloads/FacebookSDKs-iOS-20150910/Bolts.framework/Headers/BFExecutor.h"
+- "/Users/Brwong/Downloads/FacebookSDKs-iOS-20150910/Bolts.framework/Headers/BFDefines.h"
+- "/Users/Brwong/Downloads/FacebookSDKs-iOS-20150910/Bolts.framework/Headers/BFCancellationTokenSource.h"
+- "/Users/Brwong/Downloads/FacebookSDKs-iOS-20150910/Bolts.framework/Headers/BFCancellationTokenRegistration.h"
+- "/Users/Brwong/Downloads/FacebookSDKs-iOS-20150910/Bolts.framework/Headers/BFCancellationToken.h"
+- "/Users/Brwong/Downloads/FacebookSDKs-iOS-20150910/Bolts.framework/Headers/BoltsVersion.h"
+- "/Users/Brwong/Downloads/FacebookSDKs-iOS-20150910/Bolts.framework/Headers/Bolts.h"
+- "/Users/Brwong/Downloads/FacebookSDKs-iOS-20150910/Bolts.framework/Modules/module.modulemap"
+- "/Users/Brwong/Downloads/FacebookSDKs-iOS-20150910/FBSDKCoreKit.framework/Headers/FBSDKGraphRequestDataAttachment.h"
+- "/Users/Brwong/Downloads/FacebookSDKs-iOS-20150910/FBSDKCoreKit.framework/Headers/FBSDKGraphErrorRecoveryProcessor.h"
+- "/Users/Brwong/Downloads/FacebookSDKs-iOS-20150910/FBSDKCoreKit.framework/Headers/FBSDKAppLinkResolver.h"
+- "/Users/Brwong/Downloads/FacebookSDKs-iOS-20150910/FBSDKCoreKit.framework/Headers/FBSDKButton.h"
+- "/Users/Brwong/Downloads/FacebookSDKs-iOS-20150910/FBSDKCoreKit.framework/Headers/FBSDKUtility.h"
+- "/Users/Brwong/Downloads/FacebookSDKs-iOS-20150910/FBSDKCoreKit.framework/Headers/FBSDKTestUsersManager.h"
+- "/Users/Brwong/Downloads/FacebookSDKs-iOS-20150910/FBSDKCoreKit.framework/Headers/FBSDKSettings.h"
+- "/Users/Brwong/Downloads/FacebookSDKs-iOS-20150910/FBSDKCoreKit.framework/Headers/FBSDKProfilePictureView.h"
+- "/Users/Brwong/Downloads/FacebookSDKs-iOS-20150910/FBSDKCoreKit.framework/Headers/FBSDKProfile.h"
+- "/Users/Brwong/Downloads/FacebookSDKs-iOS-20150910/FBSDKCoreKit.framework/Headers/FBSDKMutableCopying.h"
+- "/Users/Brwong/Downloads/FacebookSDKs-iOS-20150910/FBSDKCoreKit.framework/Headers/FBSDKGraphRequest.h"
+- "/Users/Brwong/Downloads/FacebookSDKs-iOS-20150910/FBSDKCoreKit.framework/Headers/FBSDKConstants.h"
+- "/Users/Brwong/Downloads/FacebookSDKs-iOS-20150910/FBSDKCoreKit.framework/Headers/FBSDKApplicationDelegate.h"
+- "/Users/Brwong/Downloads/FacebookSDKs-iOS-20150910/FBSDKCoreKit.framework/Headers/FBSDKAppLinkUtility.h"
+- "/Users/Brwong/Downloads/FacebookSDKs-iOS-20150910/FBSDKCoreKit.framework/Headers/FBSDKAppEvents.h"
+- "/Users/Brwong/Downloads/FacebookSDKs-iOS-20150910/FBSDKCoreKit.framework/Headers/FBSDKMacros.h"
+- "/Users/Brwong/Downloads/FacebookSDKs-iOS-20150910/FBSDKCoreKit.framework/Headers/FBSDKGraphRequestConnection.h"
+- "/Users/Brwong/Downloads/FacebookSDKs-iOS-20150910/FBSDKCoreKit.framework/Headers/FBSDKCopying.h"
+- "/Users/Brwong/Downloads/FacebookSDKs-iOS-20150910/FBSDKCoreKit.framework/Headers/FBSDKAccessToken.h"
+- "/Users/Brwong/Downloads/FacebookSDKs-iOS-20150910/FBSDKCoreKit.framework/Headers/FBSDKCoreKit.h"
+- "/Users/Brwong/Downloads/FacebookSDKs-iOS-20150910/FBSDKCoreKit.framework/Modules/module.modulemap"
+- "/Users/Brwong/Downloads/FacebookSDKs-iOS-20150910/FBSDKLoginKit.framework/Headers/FBSDKLoginTooltipView.h"
+- "/Users/Brwong/Downloads/FacebookSDKs-iOS-20150910/FBSDKLoginKit.framework/Headers/FBSDKLoginManagerLoginResult.h"
+- "/Users/Brwong/Downloads/FacebookSDKs-iOS-20150910/FBSDKLoginKit.framework/Headers/FBSDKLoginConstants.h"
+- "/Users/Brwong/Downloads/FacebookSDKs-iOS-20150910/FBSDKLoginKit.framework/Headers/FBSDKTooltipView.h"
+- "/Users/Brwong/Downloads/FacebookSDKs-iOS-20150910/FBSDKLoginKit.framework/Headers/FBSDKLoginManager.h"
+- "/Users/Brwong/Downloads/FacebookSDKs-iOS-20150910/FBSDKLoginKit.framework/Headers/FBSDKLoginButton.h"
+- "/Users/Brwong/Downloads/FacebookSDKs-iOS-20150910/FBSDKLoginKit.framework/Headers/FBSDKLoginKit.h"
+- "/Users/Brwong/Downloads/FacebookSDKs-iOS-20150910/FBSDKLoginKit.framework/Modules/module.modulemap"
+interface-hash: "84ddb596aa49e979a47f602b1f0bc21d"

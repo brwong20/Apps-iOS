@@ -1,0 +1,641 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "DetailViewController"
+provides-nominal:
+- "C7Weather20DetailViewController"
+provides-member:
+- ["C7Weather20DetailViewController", ""]
+provides-dynamic-lookup:
+- "sunsetTimeLabel"
+- "viewDidLoad"
+- "viewWillAppear"
+- "configureView"
+- "summaryTextLabel"
+- "rainChanceLabel"
+- "sunriseTimeLabel"
+- "lowTempLabel"
+- "largeIconImage"
+- "highTempLabel"
+- "humidityLabel"
+depends-top-level:
+- !private "UIBarButtonItem"
+- "UIImageView"
+- !private "String"
+- !private "UnicodeScalarType"
+- !private "Dictionary"
+- "Bool"
+- !private "NSFontAttributeName"
+- "UILabel"
+- "DailyWeather"
+- "DetailViewController"
+- !private "UIColor"
+- "UIViewController"
+- !private "AnyObject"
+- !private "StringLiteralType"
+- !private "UIFont"
+- !private "NSForegroundColorAttributeName"
+depends-member:
+- !private ["PSs9AnyObject", "NSFontAttributeName"]
+- !private ["PSs9AnyObject", "NSForegroundColorAttributeName"]
+- !private ["PSs9AnyObject", "UIBarButtonItem"]
+- !private ["PSs9AnyObject", "UIColor"]
+- !private ["PSs9AnyObject", "UIFont"]
+- !private ["PSs9AnyObject", "appearance"]
+- ["PSs9AnyObject", "configureView"]
+- ["PSs9AnyObject", "dailyWeather"]
+- ["PSs9AnyObject", "highTempLabel"]
+- ["PSs9AnyObject", "humidityLabel"]
+- !private ["PSs9AnyObject", "image"]
+- ["PSs9AnyObject", "init"]
+- ["PSs9AnyObject", "largeIconImage"]
+- ["PSs9AnyObject", "lowTempLabel"]
+- ["PSs9AnyObject", "rainChanceLabel"]
+- !private ["PSs9AnyObject", "setTitleTextAttributes"]
+- ["PSs9AnyObject", "summaryTextLabel"]
+- ["PSs9AnyObject", "sunriseTimeLabel"]
+- ["PSs9AnyObject", "sunsetTimeLabel"]
+- !private ["PSs9AnyObject", "text"]
+- !private ["PSs9AnyObject", "title"]
+- ["PSs9AnyObject", "viewDidLoad"]
+- ["PSs9AnyObject", "viewWillAppear"]
+- !private ["PSs9AnyObject", "whiteColor"]
+- ["PSs9AnyObject", ""]
+- !private ["PSs23ArrayLiteralConvertible", "Normal"]
+- !private ["Sb", "deinit"]
+- !private ["V12CoreGraphics7CGFloat", "deinit"]
+- !private ["PSs11CVarArgType", "NSFontAttributeName"]
+- !private ["PSs11CVarArgType", "NSForegroundColorAttributeName"]
+- !private ["PSs11CVarArgType", "UIBarButtonItem"]
+- !private ["PSs11CVarArgType", "UIColor"]
+- !private ["PSs11CVarArgType", "UIFont"]
+- !private ["PSs11CVarArgType", "appearance"]
+- ["PSs11CVarArgType", "configureView"]
+- ["PSs11CVarArgType", "dailyWeather"]
+- ["PSs11CVarArgType", "highTempLabel"]
+- ["PSs11CVarArgType", "humidityLabel"]
+- !private ["PSs11CVarArgType", "image"]
+- ["PSs11CVarArgType", "init"]
+- ["PSs11CVarArgType", "largeIconImage"]
+- ["PSs11CVarArgType", "lowTempLabel"]
+- ["PSs11CVarArgType", "rainChanceLabel"]
+- !private ["PSs11CVarArgType", "setTitleTextAttributes"]
+- ["PSs11CVarArgType", "summaryTextLabel"]
+- ["PSs11CVarArgType", "sunriseTimeLabel"]
+- ["PSs11CVarArgType", "sunsetTimeLabel"]
+- !private ["PSs11CVarArgType", "text"]
+- !private ["PSs11CVarArgType", "title"]
+- ["PSs11CVarArgType", "viewDidLoad"]
+- ["PSs11CVarArgType", "viewWillAppear"]
+- !private ["PSs11CVarArgType", "whiteColor"]
+- ["PSs11CVarArgType", ""]
+- !private ["VSs9Character", "deinit"]
+- !private ["PSs14CollectionType", "Key"]
+- !private ["PSs14CollectionType", "Value"]
+- !private ["PSs10Comparable", "init"]
+- !private ["PSs28CustomDebugStringConvertible", "Key"]
+- ["PSs28CustomDebugStringConvertible", "Some"]
+- !private ["PSs28CustomDebugStringConvertible", "Value"]
+- !private ["PSs28CustomDebugStringConvertible", "init"]
+- !private ["PSs23CustomStringConvertible", "Key"]
+- !private ["PSs23CustomStringConvertible", "NSFontAttributeName"]
+- !private ["PSs23CustomStringConvertible", "NSForegroundColorAttributeName"]
+- !private ["PSs23CustomStringConvertible", "UIBarButtonItem"]
+- !private ["PSs23CustomStringConvertible", "UIColor"]
+- !private ["PSs23CustomStringConvertible", "UIFont"]
+- !private ["PSs23CustomStringConvertible", "Value"]
+- !private ["PSs23CustomStringConvertible", "appearance"]
+- ["PSs23CustomStringConvertible", "configureView"]
+- ["PSs23CustomStringConvertible", "dailyWeather"]
+- ["PSs23CustomStringConvertible", "highTempLabel"]
+- ["PSs23CustomStringConvertible", "humidityLabel"]
+- !private ["PSs23CustomStringConvertible", "image"]
+- ["PSs23CustomStringConvertible", "init"]
+- ["PSs23CustomStringConvertible", "largeIconImage"]
+- ["PSs23CustomStringConvertible", "lowTempLabel"]
+- ["PSs23CustomStringConvertible", "rainChanceLabel"]
+- !private ["PSs23CustomStringConvertible", "setTitleTextAttributes"]
+- ["PSs23CustomStringConvertible", "summaryTextLabel"]
+- ["PSs23CustomStringConvertible", "sunriseTimeLabel"]
+- ["PSs23CustomStringConvertible", "sunsetTimeLabel"]
+- !private ["PSs23CustomStringConvertible", "text"]
+- !private ["PSs23CustomStringConvertible", "title"]
+- ["PSs23CustomStringConvertible", "viewDidLoad"]
+- ["PSs23CustomStringConvertible", "viewWillAppear"]
+- !private ["PSs23CustomStringConvertible", "whiteColor"]
+- ["PSs23CustomStringConvertible", ""]
+- !private ["V7Weather12DailyWeather", "day"]
+- !private ["V7Weather12DailyWeather", "humidity"]
+- !private ["V7Weather12DailyWeather", "largeIcon"]
+- !private ["V7Weather12DailyWeather", "maxTemperature"]
+- !private ["V7Weather12DailyWeather", "minTemperature"]
+- !private ["V7Weather12DailyWeather", "precipProbability"]
+- !private ["V7Weather12DailyWeather", "summary"]
+- !private ["V7Weather12DailyWeather", "sunriseTime"]
+- !private ["V7Weather12DailyWeather", "sunsetTime"]
+- !private ["C7Weather20DetailViewController", "AnyObject"]
+- ["C7Weather20DetailViewController", "Bool"]
+- ["C7Weather20DetailViewController", "DailyWeather"]
+- !private ["C7Weather20DetailViewController", "NSFontAttributeName"]
+- !private ["C7Weather20DetailViewController", "NSForegroundColorAttributeName"]
+- !private ["C7Weather20DetailViewController", "String"]
+- !private ["C7Weather20DetailViewController", "UIBarButtonItem"]
+- !private ["C7Weather20DetailViewController", "UIColor"]
+- !private ["C7Weather20DetailViewController", "UIFont"]
+- ["C7Weather20DetailViewController", "UIImageView"]
+- ["C7Weather20DetailViewController", "UILabel"]
+- ["C7Weather20DetailViewController", "configureView"]
+- ["C7Weather20DetailViewController", "dailyWeather"]
+- ["C7Weather20DetailViewController", "deinit"]
+- ["C7Weather20DetailViewController", "highTempLabel"]
+- ["C7Weather20DetailViewController", "humidityLabel"]
+- ["C7Weather20DetailViewController", "init"]
+- ["C7Weather20DetailViewController", "largeIconImage"]
+- ["C7Weather20DetailViewController", "lowTempLabel"]
+- ["C7Weather20DetailViewController", "rainChanceLabel"]
+- ["C7Weather20DetailViewController", "summaryTextLabel"]
+- ["C7Weather20DetailViewController", "sunriseTimeLabel"]
+- ["C7Weather20DetailViewController", "sunsetTimeLabel"]
+- !private ["C7Weather20DetailViewController", "title"]
+- ["C7Weather20DetailViewController", "viewDidLoad"]
+- ["C7Weather20DetailViewController", "viewWillAppear"]
+- !private ["VSs10Dictionary", "Key"]
+- !private ["VSs10Dictionary", "Value"]
+- !private ["PSs28DictionaryLiteralConvertible", "Key"]
+- !private ["PSs28DictionaryLiteralConvertible", "Value"]
+- !private ["Sd", "deinit"]
+- !private ["PSs9Equatable", "NSFontAttributeName"]
+- !private ["PSs9Equatable", "NSForegroundColorAttributeName"]
+- !private ["PSs9Equatable", "Normal"]
+- !private ["PSs9Equatable", "UIBarButtonItem"]
+- !private ["PSs9Equatable", "UIColor"]
+- !private ["PSs9Equatable", "UIFont"]
+- !private ["PSs9Equatable", "appearance"]
+- ["PSs9Equatable", "configureView"]
+- ["PSs9Equatable", "dailyWeather"]
+- ["PSs9Equatable", "highTempLabel"]
+- ["PSs9Equatable", "humidityLabel"]
+- !private ["PSs9Equatable", "image"]
+- ["PSs9Equatable", "init"]
+- ["PSs9Equatable", "largeIconImage"]
+- ["PSs9Equatable", "lowTempLabel"]
+- ["PSs9Equatable", "rainChanceLabel"]
+- !private ["PSs9Equatable", "setTitleTextAttributes"]
+- ["PSs9Equatable", "summaryTextLabel"]
+- ["PSs9Equatable", "sunriseTimeLabel"]
+- ["PSs9Equatable", "sunsetTimeLabel"]
+- !private ["PSs9Equatable", "text"]
+- !private ["PSs9Equatable", "title"]
+- ["PSs9Equatable", "viewDidLoad"]
+- ["PSs9Equatable", "viewWillAppear"]
+- !private ["PSs9Equatable", "whiteColor"]
+- ["PSs9Equatable", ""]
+- !private ["PSs41ExtendedGraphemeClusterLiteralConvertible", "init"]
+- !private ["Sf", "deinit"]
+- !private ["PSs8Hashable", "NSFontAttributeName"]
+- !private ["PSs8Hashable", "NSForegroundColorAttributeName"]
+- !private ["PSs8Hashable", "UIBarButtonItem"]
+- !private ["PSs8Hashable", "UIColor"]
+- !private ["PSs8Hashable", "UIFont"]
+- !private ["PSs8Hashable", "appearance"]
+- ["PSs8Hashable", "configureView"]
+- ["PSs8Hashable", "dailyWeather"]
+- ["PSs8Hashable", "highTempLabel"]
+- ["PSs8Hashable", "humidityLabel"]
+- !private ["PSs8Hashable", "image"]
+- ["PSs8Hashable", "init"]
+- ["PSs8Hashable", "largeIconImage"]
+- ["PSs8Hashable", "lowTempLabel"]
+- ["PSs8Hashable", "rainChanceLabel"]
+- !private ["PSs8Hashable", "setTitleTextAttributes"]
+- ["PSs8Hashable", "summaryTextLabel"]
+- ["PSs8Hashable", "sunriseTimeLabel"]
+- ["PSs8Hashable", "sunsetTimeLabel"]
+- !private ["PSs8Hashable", "text"]
+- !private ["PSs8Hashable", "title"]
+- ["PSs8Hashable", "viewDidLoad"]
+- ["PSs8Hashable", "viewWillAppear"]
+- !private ["PSs8Hashable", "whiteColor"]
+- ["PSs8Hashable", ""]
+- !private ["PSs9Indexable", "Key"]
+- !private ["PSs9Indexable", "Value"]
+- !private ["Si", "deinit"]
+- !private ["VSs5Int16", "deinit"]
+- !private ["VSs5Int32", "deinit"]
+- !private ["VSs5Int64", "deinit"]
+- !private ["VSs4Int8", "deinit"]
+- !private ["PSs14MirrorPathType", "init"]
+- !private ["PSo8NSCoding", "NSFontAttributeName"]
+- !private ["PSo8NSCoding", "NSForegroundColorAttributeName"]
+- !private ["PSo8NSCoding", "UIBarButtonItem"]
+- !private ["PSo8NSCoding", "UIColor"]
+- !private ["PSo8NSCoding", "UIFont"]
+- !private ["PSo8NSCoding", "appearance"]
+- ["PSo8NSCoding", "configureView"]
+- ["PSo8NSCoding", "dailyWeather"]
+- ["PSo8NSCoding", "highTempLabel"]
+- ["PSo8NSCoding", "humidityLabel"]
+- !private ["PSo8NSCoding", "image"]
+- ["PSo8NSCoding", "init"]
+- ["PSo8NSCoding", "largeIconImage"]
+- ["PSo8NSCoding", "lowTempLabel"]
+- ["PSo8NSCoding", "rainChanceLabel"]
+- !private ["PSo8NSCoding", "setTitleTextAttributes"]
+- ["PSo8NSCoding", "summaryTextLabel"]
+- ["PSo8NSCoding", "sunriseTimeLabel"]
+- ["PSo8NSCoding", "sunsetTimeLabel"]
+- !private ["PSo8NSCoding", "text"]
+- !private ["PSo8NSCoding", "title"]
+- ["PSo8NSCoding", "viewDidLoad"]
+- ["PSo8NSCoding", "viewWillAppear"]
+- !private ["PSo8NSCoding", "whiteColor"]
+- ["PSo8NSCoding", ""]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo9NSCopying", "whiteColor"]
+- !private ["PSo26NSExtensionRequestHandling", "NSFontAttributeName"]
+- !private ["PSo26NSExtensionRequestHandling", "NSForegroundColorAttributeName"]
+- !private ["PSo26NSExtensionRequestHandling", "UIBarButtonItem"]
+- !private ["PSo26NSExtensionRequestHandling", "UIColor"]
+- !private ["PSo26NSExtensionRequestHandling", "UIFont"]
+- ["PSo26NSExtensionRequestHandling", "configureView"]
+- ["PSo26NSExtensionRequestHandling", "dailyWeather"]
+- ["PSo26NSExtensionRequestHandling", "highTempLabel"]
+- ["PSo26NSExtensionRequestHandling", "humidityLabel"]
+- ["PSo26NSExtensionRequestHandling", "init"]
+- ["PSo26NSExtensionRequestHandling", "largeIconImage"]
+- ["PSo26NSExtensionRequestHandling", "lowTempLabel"]
+- ["PSo26NSExtensionRequestHandling", "rainChanceLabel"]
+- ["PSo26NSExtensionRequestHandling", "summaryTextLabel"]
+- ["PSo26NSExtensionRequestHandling", "sunriseTimeLabel"]
+- ["PSo26NSExtensionRequestHandling", "sunsetTimeLabel"]
+- !private ["PSo26NSExtensionRequestHandling", "title"]
+- ["PSo26NSExtensionRequestHandling", "viewDidLoad"]
+- ["PSo26NSExtensionRequestHandling", "viewWillAppear"]
+- ["PSo26NSExtensionRequestHandling", ""]
+- !private ["PSo16NSMutableCopying", "init"]
+- !private ["CSo8NSObject", "AnyObject"]
+- ["CSo8NSObject", "Bool"]
+- ["CSo8NSObject", "DailyWeather"]
+- !private ["CSo8NSObject", "NSFontAttributeName"]
+- !private ["CSo8NSObject", "NSForegroundColorAttributeName"]
+- !private ["CSo8NSObject", "String"]
+- !private ["CSo8NSObject", "UIBarButtonItem"]
+- !private ["CSo8NSObject", "UIColor"]
+- !private ["CSo8NSObject", "UIFont"]
+- ["CSo8NSObject", "UIImageView"]
+- ["CSo8NSObject", "UILabel"]
+- !private ["CSo8NSObject", "appearance"]
+- ["CSo8NSObject", "configureView"]
+- ["CSo8NSObject", "dailyWeather"]
+- ["CSo8NSObject", "highTempLabel"]
+- ["CSo8NSObject", "humidityLabel"]
+- !private ["CSo8NSObject", "image"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "largeIconImage"]
+- ["CSo8NSObject", "lowTempLabel"]
+- ["CSo8NSObject", "rainChanceLabel"]
+- !private ["CSo8NSObject", "setTitleTextAttributes"]
+- ["CSo8NSObject", "summaryTextLabel"]
+- ["CSo8NSObject", "sunriseTimeLabel"]
+- ["CSo8NSObject", "sunsetTimeLabel"]
+- !private ["CSo8NSObject", "text"]
+- !private ["CSo8NSObject", "title"]
+- ["CSo8NSObject", "viewDidLoad"]
+- ["CSo8NSObject", "viewWillAppear"]
+- !private ["CSo8NSObject", "whiteColor"]
+- !private ["PSo16NSObjectProtocol", "NSFontAttributeName"]
+- !private ["PSo16NSObjectProtocol", "NSForegroundColorAttributeName"]
+- !private ["PSo16NSObjectProtocol", "UIBarButtonItem"]
+- !private ["PSo16NSObjectProtocol", "UIColor"]
+- !private ["PSo16NSObjectProtocol", "UIFont"]
+- !private ["PSo16NSObjectProtocol", "appearance"]
+- ["PSo16NSObjectProtocol", "configureView"]
+- ["PSo16NSObjectProtocol", "dailyWeather"]
+- ["PSo16NSObjectProtocol", "highTempLabel"]
+- ["PSo16NSObjectProtocol", "humidityLabel"]
+- !private ["PSo16NSObjectProtocol", "image"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "largeIconImage"]
+- ["PSo16NSObjectProtocol", "lowTempLabel"]
+- ["PSo16NSObjectProtocol", "rainChanceLabel"]
+- !private ["PSo16NSObjectProtocol", "setTitleTextAttributes"]
+- ["PSo16NSObjectProtocol", "summaryTextLabel"]
+- ["PSo16NSObjectProtocol", "sunriseTimeLabel"]
+- ["PSo16NSObjectProtocol", "sunsetTimeLabel"]
+- !private ["PSo16NSObjectProtocol", "text"]
+- !private ["PSo16NSObjectProtocol", "title"]
+- ["PSo16NSObjectProtocol", "viewDidLoad"]
+- ["PSo16NSObjectProtocol", "viewWillAppear"]
+- !private ["PSo16NSObjectProtocol", "whiteColor"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["PSo14NSSecureCoding", "whiteColor"]
+- !private ["CSo8NSString", "init"]
+- ["PSs21NilLiteralConvertible", "Some"]
+- !private ["PSs13OptionSetType", "Normal"]
+- ["Sq", "Some"]
+- !private ["Sq", "deinit"]
+- !private ["PSs16OutputStreamType", "init"]
+- !private ["PSs16RawRepresentable", "Normal"]
+- !private ["PSs12SequenceType", "Key"]
+- !private ["PSs12SequenceType", "Value"]
+- !private ["PSs14SetAlgebraType", "Normal"]
+- !private ["PSs10Streamable", "init"]
+- !private ["SS", "init"]
+- !private ["PSs30StringInterpolationConvertible", "init"]
+- !private ["PSs24StringLiteralConvertible", "init"]
+- !private ["PSo29UIAccessibilityIdentification", "appearance"]
+- !private ["PSo29UIAccessibilityIdentification", "image"]
+- !private ["PSo29UIAccessibilityIdentification", "setTitleTextAttributes"]
+- !private ["PSo29UIAccessibilityIdentification", "text"]
+- !private ["PSo12UIAppearance", "appearance"]
+- !private ["PSo12UIAppearance", "image"]
+- !private ["PSo12UIAppearance", "setTitleTextAttributes"]
+- !private ["PSo12UIAppearance", "text"]
+- !private ["PSo21UIAppearanceContainer", "NSFontAttributeName"]
+- !private ["PSo21UIAppearanceContainer", "NSForegroundColorAttributeName"]
+- !private ["PSo21UIAppearanceContainer", "UIBarButtonItem"]
+- !private ["PSo21UIAppearanceContainer", "UIColor"]
+- !private ["PSo21UIAppearanceContainer", "UIFont"]
+- ["PSo21UIAppearanceContainer", "configureView"]
+- ["PSo21UIAppearanceContainer", "dailyWeather"]
+- ["PSo21UIAppearanceContainer", "highTempLabel"]
+- ["PSo21UIAppearanceContainer", "humidityLabel"]
+- !private ["PSo21UIAppearanceContainer", "image"]
+- ["PSo21UIAppearanceContainer", "init"]
+- ["PSo21UIAppearanceContainer", "largeIconImage"]
+- ["PSo21UIAppearanceContainer", "lowTempLabel"]
+- ["PSo21UIAppearanceContainer", "rainChanceLabel"]
+- ["PSo21UIAppearanceContainer", "summaryTextLabel"]
+- ["PSo21UIAppearanceContainer", "sunriseTimeLabel"]
+- ["PSo21UIAppearanceContainer", "sunsetTimeLabel"]
+- !private ["PSo21UIAppearanceContainer", "text"]
+- !private ["PSo21UIAppearanceContainer", "title"]
+- ["PSo21UIAppearanceContainer", "viewDidLoad"]
+- ["PSo21UIAppearanceContainer", "viewWillAppear"]
+- ["PSo21UIAppearanceContainer", ""]
+- !private ["CSo15UIBarButtonItem", "appearance"]
+- !private ["CSo15UIBarButtonItem", "setTitleTextAttributes"]
+- !private ["CSo9UIBarItem", "appearance"]
+- !private ["CSo9UIBarItem", "setTitleTextAttributes"]
+- !private ["CSo7UIColor", "whiteColor"]
+- !private ["PSo18UIContentContainer", "NSFontAttributeName"]
+- !private ["PSo18UIContentContainer", "NSForegroundColorAttributeName"]
+- !private ["PSo18UIContentContainer", "UIBarButtonItem"]
+- !private ["PSo18UIContentContainer", "UIColor"]
+- !private ["PSo18UIContentContainer", "UIFont"]
+- ["PSo18UIContentContainer", "configureView"]
+- ["PSo18UIContentContainer", "dailyWeather"]
+- ["PSo18UIContentContainer", "highTempLabel"]
+- ["PSo18UIContentContainer", "humidityLabel"]
+- ["PSo18UIContentContainer", "init"]
+- ["PSo18UIContentContainer", "largeIconImage"]
+- ["PSo18UIContentContainer", "lowTempLabel"]
+- ["PSo18UIContentContainer", "rainChanceLabel"]
+- ["PSo18UIContentContainer", "summaryTextLabel"]
+- ["PSo18UIContentContainer", "sunriseTimeLabel"]
+- ["PSo18UIContentContainer", "sunsetTimeLabel"]
+- !private ["PSo18UIContentContainer", "title"]
+- ["PSo18UIContentContainer", "viewDidLoad"]
+- ["PSo18UIContentContainer", "viewWillAppear"]
+- ["PSo18UIContentContainer", ""]
+- !private ["VSC14UIControlState", "Normal"]
+- !private ["PSo17UICoordinateSpace", "image"]
+- !private ["PSo17UICoordinateSpace", "text"]
+- !private ["PSo13UIDynamicItem", "image"]
+- !private ["PSo13UIDynamicItem", "text"]
+- !private ["PSo18UIFocusEnvironment", "NSFontAttributeName"]
+- !private ["PSo18UIFocusEnvironment", "NSForegroundColorAttributeName"]
+- !private ["PSo18UIFocusEnvironment", "UIBarButtonItem"]
+- !private ["PSo18UIFocusEnvironment", "UIColor"]
+- !private ["PSo18UIFocusEnvironment", "UIFont"]
+- ["PSo18UIFocusEnvironment", "configureView"]
+- ["PSo18UIFocusEnvironment", "dailyWeather"]
+- ["PSo18UIFocusEnvironment", "highTempLabel"]
+- ["PSo18UIFocusEnvironment", "humidityLabel"]
+- !private ["PSo18UIFocusEnvironment", "image"]
+- ["PSo18UIFocusEnvironment", "init"]
+- ["PSo18UIFocusEnvironment", "largeIconImage"]
+- ["PSo18UIFocusEnvironment", "lowTempLabel"]
+- ["PSo18UIFocusEnvironment", "rainChanceLabel"]
+- ["PSo18UIFocusEnvironment", "summaryTextLabel"]
+- ["PSo18UIFocusEnvironment", "sunriseTimeLabel"]
+- ["PSo18UIFocusEnvironment", "sunsetTimeLabel"]
+- !private ["PSo18UIFocusEnvironment", "text"]
+- !private ["PSo18UIFocusEnvironment", "title"]
+- ["PSo18UIFocusEnvironment", "viewDidLoad"]
+- ["PSo18UIFocusEnvironment", "viewWillAppear"]
+- ["PSo18UIFocusEnvironment", ""]
+- !private ["CSo6UIFont", "init"]
+- !private ["CSo11UIImageView", "image"]
+- !private ["CSo7UILabel", "text"]
+- !private ["CSo11UIResponder", "AnyObject"]
+- ["CSo11UIResponder", "Bool"]
+- ["CSo11UIResponder", "DailyWeather"]
+- !private ["CSo11UIResponder", "NSFontAttributeName"]
+- !private ["CSo11UIResponder", "NSForegroundColorAttributeName"]
+- !private ["CSo11UIResponder", "String"]
+- !private ["CSo11UIResponder", "UIBarButtonItem"]
+- !private ["CSo11UIResponder", "UIColor"]
+- !private ["CSo11UIResponder", "UIFont"]
+- ["CSo11UIResponder", "UIImageView"]
+- ["CSo11UIResponder", "UILabel"]
+- ["CSo11UIResponder", "configureView"]
+- ["CSo11UIResponder", "dailyWeather"]
+- ["CSo11UIResponder", "highTempLabel"]
+- ["CSo11UIResponder", "humidityLabel"]
+- !private ["CSo11UIResponder", "image"]
+- ["CSo11UIResponder", "init"]
+- ["CSo11UIResponder", "largeIconImage"]
+- ["CSo11UIResponder", "lowTempLabel"]
+- ["CSo11UIResponder", "rainChanceLabel"]
+- ["CSo11UIResponder", "summaryTextLabel"]
+- ["CSo11UIResponder", "sunriseTimeLabel"]
+- ["CSo11UIResponder", "sunsetTimeLabel"]
+- !private ["CSo11UIResponder", "text"]
+- !private ["CSo11UIResponder", "title"]
+- ["CSo11UIResponder", "viewDidLoad"]
+- ["CSo11UIResponder", "viewWillAppear"]
+- !private ["PSo16UIStateRestoring", "NSFontAttributeName"]
+- !private ["PSo16UIStateRestoring", "NSForegroundColorAttributeName"]
+- !private ["PSo16UIStateRestoring", "UIBarButtonItem"]
+- !private ["PSo16UIStateRestoring", "UIColor"]
+- !private ["PSo16UIStateRestoring", "UIFont"]
+- ["PSo16UIStateRestoring", "configureView"]
+- ["PSo16UIStateRestoring", "dailyWeather"]
+- ["PSo16UIStateRestoring", "highTempLabel"]
+- ["PSo16UIStateRestoring", "humidityLabel"]
+- ["PSo16UIStateRestoring", "init"]
+- ["PSo16UIStateRestoring", "largeIconImage"]
+- ["PSo16UIStateRestoring", "lowTempLabel"]
+- ["PSo16UIStateRestoring", "rainChanceLabel"]
+- ["PSo16UIStateRestoring", "summaryTextLabel"]
+- ["PSo16UIStateRestoring", "sunriseTimeLabel"]
+- ["PSo16UIStateRestoring", "sunsetTimeLabel"]
+- !private ["PSo16UIStateRestoring", "title"]
+- ["PSo16UIStateRestoring", "viewDidLoad"]
+- ["PSo16UIStateRestoring", "viewWillAppear"]
+- ["PSo16UIStateRestoring", ""]
+- !private ["PSo18UITraitEnvironment", "NSFontAttributeName"]
+- !private ["PSo18UITraitEnvironment", "NSForegroundColorAttributeName"]
+- !private ["PSo18UITraitEnvironment", "UIBarButtonItem"]
+- !private ["PSo18UITraitEnvironment", "UIColor"]
+- !private ["PSo18UITraitEnvironment", "UIFont"]
+- ["PSo18UITraitEnvironment", "configureView"]
+- ["PSo18UITraitEnvironment", "dailyWeather"]
+- ["PSo18UITraitEnvironment", "highTempLabel"]
+- ["PSo18UITraitEnvironment", "humidityLabel"]
+- !private ["PSo18UITraitEnvironment", "image"]
+- ["PSo18UITraitEnvironment", "init"]
+- ["PSo18UITraitEnvironment", "largeIconImage"]
+- ["PSo18UITraitEnvironment", "lowTempLabel"]
+- ["PSo18UITraitEnvironment", "rainChanceLabel"]
+- ["PSo18UITraitEnvironment", "summaryTextLabel"]
+- ["PSo18UITraitEnvironment", "sunriseTimeLabel"]
+- ["PSo18UITraitEnvironment", "sunsetTimeLabel"]
+- !private ["PSo18UITraitEnvironment", "text"]
+- !private ["PSo18UITraitEnvironment", "title"]
+- ["PSo18UITraitEnvironment", "viewDidLoad"]
+- ["PSo18UITraitEnvironment", "viewWillAppear"]
+- ["PSo18UITraitEnvironment", ""]
+- !private ["CSo6UIView", "image"]
+- !private ["CSo6UIView", "text"]
+- !private ["CSo16UIViewController", "AnyObject"]
+- ["CSo16UIViewController", "Bool"]
+- ["CSo16UIViewController", "DailyWeather"]
+- !private ["CSo16UIViewController", "NSFontAttributeName"]
+- !private ["CSo16UIViewController", "NSForegroundColorAttributeName"]
+- !private ["CSo16UIViewController", "String"]
+- !private ["CSo16UIViewController", "UIBarButtonItem"]
+- !private ["CSo16UIViewController", "UIColor"]
+- !private ["CSo16UIViewController", "UIFont"]
+- ["CSo16UIViewController", "UIImageView"]
+- ["CSo16UIViewController", "UILabel"]
+- ["CSo16UIViewController", "configureView"]
+- ["CSo16UIViewController", "dailyWeather"]
+- ["CSo16UIViewController", "highTempLabel"]
+- ["CSo16UIViewController", "humidityLabel"]
+- ["CSo16UIViewController", "init"]
+- ["CSo16UIViewController", "largeIconImage"]
+- ["CSo16UIViewController", "lowTempLabel"]
+- ["CSo16UIViewController", "rainChanceLabel"]
+- ["CSo16UIViewController", "summaryTextLabel"]
+- ["CSo16UIViewController", "sunriseTimeLabel"]
+- ["CSo16UIViewController", "sunsetTimeLabel"]
+- !private ["CSo16UIViewController", "title"]
+- ["CSo16UIViewController", "viewDidLoad"]
+- ["CSo16UIViewController", "viewWillAppear"]
+- ["CSo16UIViewController", ""]
+- !private ["Su", "deinit"]
+- !private ["VSs6UInt16", "deinit"]
+- !private ["VSs6UInt32", "deinit"]
+- !private ["VSs6UInt64", "deinit"]
+- !private ["VSs5UInt8", "deinit"]
+- !private ["Sc", "deinit"]
+- !private ["PSs31UnicodeScalarLiteralConvertible", "init"]
+- !private ["PSs49_BuiltinExtendedGraphemeClusterLiteralConvertible", "init"]
+- !private ["PSs32_BuiltinStringLiteralConvertible", "init"]
+- !private ["PSs37_BuiltinUTF16StringLiteralConvertible", "init"]
+- !private ["PSs39_BuiltinUnicodeScalarLiteralConvertible", "init"]
+- !private ["PSs16_CocoaStringType", "init"]
+- !private ["PSs24_ColorLiteralConvertible", "whiteColor"]
+- !private ["PSs21_ObjectiveCBridgeable", "Key"]
+- !private ["PSs21_ObjectiveCBridgeable", "Value"]
+- !private ["PSs21_ObjectiveCBridgeable", "init"]
+- !private ["PSs12_Reflectable", "Key"]
+- ["PSs12_Reflectable", "Some"]
+- !private ["PSs12_Reflectable", "Value"]
+- !private ["PSs12_Reflectable", "image"]
+- !private ["PSs12_Reflectable", "init"]
+- !private ["PSs12_Reflectable", "text"]
+depends-nominal:
+- "PSs9AnyObject"
+- !private "PSs23ArrayLiteralConvertible"
+- !private "Sb"
+- !private "V12CoreGraphics7CGFloat"
+- "PSs11CVarArgType"
+- !private "VSs9Character"
+- !private "PSs14CollectionType"
+- !private "PSs10Comparable"
+- "PSs28CustomDebugStringConvertible"
+- "PSs23CustomStringConvertible"
+- !private "V7Weather12DailyWeather"
+- "C7Weather20DetailViewController"
+- !private "VSs10Dictionary"
+- !private "PSs28DictionaryLiteralConvertible"
+- !private "Sd"
+- "PSs9Equatable"
+- !private "PSs41ExtendedGraphemeClusterLiteralConvertible"
+- !private "Sf"
+- "PSs8Hashable"
+- !private "PSs9Indexable"
+- !private "Si"
+- !private "VSs5Int16"
+- !private "VSs5Int32"
+- !private "VSs5Int64"
+- !private "VSs4Int8"
+- !private "PSs14MirrorPathType"
+- "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- "PSo26NSExtensionRequestHandling"
+- !private "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- "PSs21NilLiteralConvertible"
+- !private "PSs13OptionSetType"
+- "Sq"
+- !private "PSs16OutputStreamType"
+- !private "PSs16RawRepresentable"
+- !private "PSs12SequenceType"
+- !private "PSs14SetAlgebraType"
+- !private "PSs10Streamable"
+- !private "SS"
+- !private "PSs30StringInterpolationConvertible"
+- !private "PSs24StringLiteralConvertible"
+- !private "PSo29UIAccessibilityIdentification"
+- !private "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- !private "CSo15UIBarButtonItem"
+- !private "CSo9UIBarItem"
+- !private "CSo7UIColor"
+- "PSo18UIContentContainer"
+- !private "VSC14UIControlState"
+- !private "PSo17UICoordinateSpace"
+- !private "PSo13UIDynamicItem"
+- "PSo18UIFocusEnvironment"
+- !private "CSo6UIFont"
+- !private "CSo11UIImageView"
+- !private "CSo7UILabel"
+- "CSo11UIResponder"
+- "PSo16UIStateRestoring"
+- "PSo18UITraitEnvironment"
+- !private "CSo6UIView"
+- "CSo16UIViewController"
+- !private "Su"
+- !private "VSs6UInt16"
+- !private "VSs6UInt32"
+- !private "VSs6UInt64"
+- !private "VSs5UInt8"
+- !private "Sc"
+- !private "PSs31UnicodeScalarLiteralConvertible"
+- !private "PSs49_BuiltinExtendedGraphemeClusterLiteralConvertible"
+- !private "PSs32_BuiltinStringLiteralConvertible"
+- !private "PSs37_BuiltinUTF16StringLiteralConvertible"
+- !private "PSs39_BuiltinUnicodeScalarLiteralConvertible"
+- !private "PSs16_CocoaStringType"
+- !private "PSs24_ColorLiteralConvertible"
+- !private "PSs21_ObjectiveCBridgeable"
+- "PSs12_Reflectable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
+interface-hash: "856fa0f6b3f8ff2264d90fe4f99778de"

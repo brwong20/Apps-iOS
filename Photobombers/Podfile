@@ -1,0 +1,5 @@
+platform :ios, '8.0'
+
+pod 'SimpleAuth/Instagram'
+pod 'SAMCache'
+pod 'SAMCategories'

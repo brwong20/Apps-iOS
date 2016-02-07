@@ -1,0 +1,785 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "UdacityClient"
+provides-nominal:
+- "C10On_The_Map13UdacityClient"
+provides-member:
+- ["C10On_The_Map13UdacityClient", ""]
+provides-dynamic-lookup:
+- "taskForLogin"
+- "userID"
+- "taskForGetUserData"
+- "taskForLogout"
+- "sharedInstance"
+- "parseJSONWithCompletionHandler"
+- "subtituteKeyInMethod"
+- "session"
+depends-top-level:
+- !private "-"
+- !private "NSURL"
+- !private "NSHTTPCookieStorage"
+- "NSError"
+- !private "NSJSONReadingOptions"
+- "String"
+- !private "UnicodeScalarType"
+- "UdacityClient"
+- "NSData"
+- !private "!="
+- "Void"
+- !private "NSMutableURLRequest"
+- !private "=="
+- !private "NSMakeRange"
+- !private "NSHTTPCookie"
+- !private "print"
+- !private "+"
+- !private "StringLiteralType"
+- "NSObject"
+- !private "NSURLRequest"
+- !private "Array"
+- !private "NSJSONSerialization"
+- "NSURLSession"
+- "NSURLSessionDataTask"
+- "AnyObject"
+depends-member:
+- !private ["PSs9AnyObject", "HTTPBody"]
+- !private ["PSs9AnyObject", "HTTPMethod"]
+- !private ["PSs9AnyObject", "JSONObjectWithData"]
+- !private ["PSs9AnyObject", "Methods"]
+- !private ["PSs9AnyObject", "NSHTTPCookieStorage"]
+- !private ["PSs9AnyObject", "NSJSONReadingOptions"]
+- !private ["PSs9AnyObject", "NSJSONSerialization"]
+- !private ["PSs9AnyObject", "NSMakeRange"]
+- !private ["PSs9AnyObject", "NSMutableURLRequest"]
+- !private ["PSs9AnyObject", "NSURL"]
+- !private ["PSs9AnyObject", "NSURLRequest"]
+- !private ["PSs9AnyObject", "NSURLSession"]
+- !private ["PSs9AnyObject", "UdacityClient"]
+- !private ["PSs9AnyObject", "addValue"]
+- !private ["PSs9AnyObject", "cookies"]
+- !private ["PSs9AnyObject", "dataTaskWithRequest"]
+- !private ["PSs9AnyObject", "dataWithJSONObject"]
+- ["PSs9AnyObject", "init"]
+- !private ["PSs9AnyObject", "length"]
+- !private ["PSs9AnyObject", "name"]
+- ["PSs9AnyObject", "parseJSONWithCompletionHandler"]
+- !private ["PSs9AnyObject", "print"]
+- !private ["PSs9AnyObject", "rangeOfString"]
+- !private ["PSs9AnyObject", "resume"]
+- ["PSs9AnyObject", "session"]
+- !private ["PSs9AnyObject", "setValue"]
+- !private ["PSs9AnyObject", "sharedHTTPCookieStorage"]
+- ["PSs9AnyObject", "sharedInstance"]
+- !private ["PSs9AnyObject", "sharedSession"]
+- !private ["PSs9AnyObject", "stringByReplacingOccurrencesOfString"]
+- !private ["PSs9AnyObject", "subdataWithRange"]
+- ["PSs9AnyObject", "subtituteKeyInMethod"]
+- ["PSs9AnyObject", "taskForGetUserData"]
+- ["PSs9AnyObject", "taskForLogin"]
+- ["PSs9AnyObject", "taskForLogout"]
+- ["PSs9AnyObject", "userID"]
+- !private ["PSs9AnyObject", "value"]
+- ["PSs9AnyObject", ""]
+- !private ["Sa", "Generator"]
+- !private ["Sa", "Index"]
+- !private ["Sa", "SubSequence"]
+- !private ["Sa", "_Element"]
+- !private ["PSs23ArrayLiteralConvertible", "AllowFragments"]
+- !private ["PSs23ArrayLiteralConvertible", "Element"]
+- !private ["PSs23ArrayLiteralConvertible", "Generator"]
+- !private ["PSs23ArrayLiteralConvertible", "Index"]
+- !private ["PSs23ArrayLiteralConvertible", "SubSequence"]
+- !private ["PSs23ArrayLiteralConvertible", "_Element"]
+- !private ["VSs10ArraySlice", "Generator"]
+- !private ["VSs10ArraySlice", "Index"]
+- !private ["PSs22BidirectionalIndexType", "Distance"]
+- !private ["PSs22BidirectionalIndexType", "IntegerLiteralType"]
+- !private ["PSs21BitwiseOperationsType", "Distance"]
+- !private ["PSs21BitwiseOperationsType", "IntegerLiteralType"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["Sb", "deinit"]
+- !private ["PSs25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs11BooleanType", "_getBuiltinLogicValue"]
+- !private ["PSs11CVarArgType", "Distance"]
+- !private ["PSs11CVarArgType", "HTTPBody"]
+- !private ["PSs11CVarArgType", "HTTPMethod"]
+- !private ["PSs11CVarArgType", "IntegerLiteralType"]
+- !private ["PSs11CVarArgType", "JSONObjectWithData"]
+- !private ["PSs11CVarArgType", "Methods"]
+- !private ["PSs11CVarArgType", "NSHTTPCookieStorage"]
+- !private ["PSs11CVarArgType", "NSJSONReadingOptions"]
+- !private ["PSs11CVarArgType", "NSJSONSerialization"]
+- !private ["PSs11CVarArgType", "NSMakeRange"]
+- !private ["PSs11CVarArgType", "NSMutableURLRequest"]
+- !private ["PSs11CVarArgType", "NSURL"]
+- !private ["PSs11CVarArgType", "NSURLRequest"]
+- !private ["PSs11CVarArgType", "NSURLSession"]
+- !private ["PSs11CVarArgType", "UdacityClient"]
+- !private ["PSs11CVarArgType", "addValue"]
+- !private ["PSs11CVarArgType", "cookies"]
+- !private ["PSs11CVarArgType", "dataTaskWithRequest"]
+- !private ["PSs11CVarArgType", "dataWithJSONObject"]
+- ["PSs11CVarArgType", "init"]
+- !private ["PSs11CVarArgType", "length"]
+- !private ["PSs11CVarArgType", "name"]
+- ["PSs11CVarArgType", "parseJSONWithCompletionHandler"]
+- !private ["PSs11CVarArgType", "print"]
+- !private ["PSs11CVarArgType", "rangeOfString"]
+- !private ["PSs11CVarArgType", "resume"]
+- ["PSs11CVarArgType", "session"]
+- !private ["PSs11CVarArgType", "setValue"]
+- !private ["PSs11CVarArgType", "sharedHTTPCookieStorage"]
+- ["PSs11CVarArgType", "sharedInstance"]
+- !private ["PSs11CVarArgType", "sharedSession"]
+- !private ["PSs11CVarArgType", "stringByReplacingOccurrencesOfString"]
+- !private ["PSs11CVarArgType", "subdataWithRange"]
+- ["PSs11CVarArgType", "subtituteKeyInMethod"]
+- ["PSs11CVarArgType", "taskForGetUserData"]
+- ["PSs11CVarArgType", "taskForLogin"]
+- ["PSs11CVarArgType", "taskForLogout"]
+- ["PSs11CVarArgType", "userID"]
+- !private ["PSs11CVarArgType", "value"]
+- ["PSs11CVarArgType", ""]
+- !private ["PSs14CollectionType", "Generator"]
+- !private ["PSs14CollectionType", "Index"]
+- !private ["PSs14CollectionType", "SubSequence"]
+- !private ["PSs14CollectionType", "_Element"]
+- !private ["PSs10Comparable", "Distance"]
+- !private ["PSs10Comparable", "IntegerLiteralType"]
+- !private ["PSs10Comparable", "init"]
+- !private ["PSs10Comparable", "rangeOfString"]
+- !private ["PSs10Comparable", "stringByReplacingOccurrencesOfString"]
+- !private ["PSs28CustomDebugStringConvertible", "Generator"]
+- !private ["PSs28CustomDebugStringConvertible", "Index"]
+- ["PSs28CustomDebugStringConvertible", "Some"]
+- !private ["PSs28CustomDebugStringConvertible", "SubSequence"]
+- !private ["PSs28CustomDebugStringConvertible", "_Element"]
+- !private ["PSs28CustomDebugStringConvertible", "init"]
+- !private ["PSs28CustomDebugStringConvertible", "rangeOfString"]
+- !private ["PSs28CustomDebugStringConvertible", "stringByReplacingOccurrencesOfString"]
+- !private ["PSs23CustomStringConvertible", "Distance"]
+- !private ["PSs23CustomStringConvertible", "Generator"]
+- !private ["PSs23CustomStringConvertible", "HTTPBody"]
+- !private ["PSs23CustomStringConvertible", "HTTPMethod"]
+- !private ["PSs23CustomStringConvertible", "Index"]
+- !private ["PSs23CustomStringConvertible", "IntegerLiteralType"]
+- !private ["PSs23CustomStringConvertible", "JSONObjectWithData"]
+- !private ["PSs23CustomStringConvertible", "Methods"]
+- !private ["PSs23CustomStringConvertible", "NSHTTPCookieStorage"]
+- !private ["PSs23CustomStringConvertible", "NSJSONReadingOptions"]
+- !private ["PSs23CustomStringConvertible", "NSJSONSerialization"]
+- !private ["PSs23CustomStringConvertible", "NSMakeRange"]
+- !private ["PSs23CustomStringConvertible", "NSMutableURLRequest"]
+- !private ["PSs23CustomStringConvertible", "NSURL"]
+- !private ["PSs23CustomStringConvertible", "NSURLRequest"]
+- !private ["PSs23CustomStringConvertible", "NSURLSession"]
+- !private ["PSs23CustomStringConvertible", "SubSequence"]
+- !private ["PSs23CustomStringConvertible", "UdacityClient"]
+- !private ["PSs23CustomStringConvertible", "_Element"]
+- !private ["PSs23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs23CustomStringConvertible", "addValue"]
+- !private ["PSs23CustomStringConvertible", "cookies"]
+- !private ["PSs23CustomStringConvertible", "dataTaskWithRequest"]
+- !private ["PSs23CustomStringConvertible", "dataWithJSONObject"]
+- ["PSs23CustomStringConvertible", "init"]
+- !private ["PSs23CustomStringConvertible", "length"]
+- !private ["PSs23CustomStringConvertible", "name"]
+- ["PSs23CustomStringConvertible", "parseJSONWithCompletionHandler"]
+- !private ["PSs23CustomStringConvertible", "print"]
+- !private ["PSs23CustomStringConvertible", "rangeOfString"]
+- !private ["PSs23CustomStringConvertible", "resume"]
+- ["PSs23CustomStringConvertible", "session"]
+- !private ["PSs23CustomStringConvertible", "setValue"]
+- !private ["PSs23CustomStringConvertible", "sharedHTTPCookieStorage"]
+- ["PSs23CustomStringConvertible", "sharedInstance"]
+- !private ["PSs23CustomStringConvertible", "sharedSession"]
+- !private ["PSs23CustomStringConvertible", "stringByReplacingOccurrencesOfString"]
+- !private ["PSs23CustomStringConvertible", "subdataWithRange"]
+- ["PSs23CustomStringConvertible", "subtituteKeyInMethod"]
+- ["PSs23CustomStringConvertible", "taskForGetUserData"]
+- ["PSs23CustomStringConvertible", "taskForLogin"]
+- ["PSs23CustomStringConvertible", "taskForLogout"]
+- ["PSs23CustomStringConvertible", "userID"]
+- !private ["PSs23CustomStringConvertible", "value"]
+- ["PSs23CustomStringConvertible", ""]
+- !private ["VSs10Dictionary", "deinit"]
+- !private ["Sd", "deinit"]
+- !private ["PSs9Equatable", "AllowFragments"]
+- !private ["PSs9Equatable", "Distance"]
+- !private ["PSs9Equatable", "Element"]
+- !private ["PSs9Equatable", "HTTPBody"]
+- !private ["PSs9Equatable", "HTTPMethod"]
+- !private ["PSs9Equatable", "IntegerLiteralType"]
+- !private ["PSs9Equatable", "JSONObjectWithData"]
+- !private ["PSs9Equatable", "Methods"]
+- !private ["PSs9Equatable", "NSHTTPCookieStorage"]
+- !private ["PSs9Equatable", "NSJSONReadingOptions"]
+- !private ["PSs9Equatable", "NSJSONSerialization"]
+- !private ["PSs9Equatable", "NSMakeRange"]
+- !private ["PSs9Equatable", "NSMutableURLRequest"]
+- !private ["PSs9Equatable", "NSURL"]
+- !private ["PSs9Equatable", "NSURLRequest"]
+- !private ["PSs9Equatable", "NSURLSession"]
+- !private ["PSs9Equatable", "UdacityClient"]
+- !private ["PSs9Equatable", "_getBuiltinLogicValue"]
+- !private ["PSs9Equatable", "addValue"]
+- !private ["PSs9Equatable", "cookies"]
+- !private ["PSs9Equatable", "dataTaskWithRequest"]
+- !private ["PSs9Equatable", "dataWithJSONObject"]
+- ["PSs9Equatable", "init"]
+- !private ["PSs9Equatable", "length"]
+- !private ["PSs9Equatable", "name"]
+- ["PSs9Equatable", "parseJSONWithCompletionHandler"]
+- !private ["PSs9Equatable", "print"]
+- !private ["PSs9Equatable", "rangeOfString"]
+- !private ["PSs9Equatable", "resume"]
+- ["PSs9Equatable", "session"]
+- !private ["PSs9Equatable", "setValue"]
+- !private ["PSs9Equatable", "sharedHTTPCookieStorage"]
+- ["PSs9Equatable", "sharedInstance"]
+- !private ["PSs9Equatable", "sharedSession"]
+- !private ["PSs9Equatable", "stringByReplacingOccurrencesOfString"]
+- !private ["PSs9Equatable", "subdataWithRange"]
+- ["PSs9Equatable", "subtituteKeyInMethod"]
+- ["PSs9Equatable", "taskForGetUserData"]
+- ["PSs9Equatable", "taskForLogin"]
+- ["PSs9Equatable", "taskForLogout"]
+- ["PSs9Equatable", "userID"]
+- !private ["PSs9Equatable", "value"]
+- ["PSs9Equatable", ""]
+- !private ["PSs41ExtendedGraphemeClusterLiteralConvertible", "init"]
+- !private ["PSs41ExtendedGraphemeClusterLiteralConvertible", "rangeOfString"]
+- !private ["PSs41ExtendedGraphemeClusterLiteralConvertible", "stringByReplacingOccurrencesOfString"]
+- !private ["Sf", "deinit"]
+- !private ["PSs16ForwardIndexType", "Distance"]
+- !private ["PSs16ForwardIndexType", "IntegerLiteralType"]
+- !private ["PSs13GeneratorType", "Element"]
+- !private ["PSs8Hashable", "Distance"]
+- !private ["PSs8Hashable", "HTTPBody"]
+- !private ["PSs8Hashable", "HTTPMethod"]
+- !private ["PSs8Hashable", "IntegerLiteralType"]
+- !private ["PSs8Hashable", "JSONObjectWithData"]
+- !private ["PSs8Hashable", "Methods"]
+- !private ["PSs8Hashable", "NSHTTPCookieStorage"]
+- !private ["PSs8Hashable", "NSJSONReadingOptions"]
+- !private ["PSs8Hashable", "NSJSONSerialization"]
+- !private ["PSs8Hashable", "NSMakeRange"]
+- !private ["PSs8Hashable", "NSMutableURLRequest"]
+- !private ["PSs8Hashable", "NSURL"]
+- !private ["PSs8Hashable", "NSURLRequest"]
+- !private ["PSs8Hashable", "NSURLSession"]
+- !private ["PSs8Hashable", "UdacityClient"]
+- !private ["PSs8Hashable", "_getBuiltinLogicValue"]
+- !private ["PSs8Hashable", "addValue"]
+- !private ["PSs8Hashable", "cookies"]
+- !private ["PSs8Hashable", "dataTaskWithRequest"]
+- !private ["PSs8Hashable", "dataWithJSONObject"]
+- ["PSs8Hashable", "init"]
+- !private ["PSs8Hashable", "length"]
+- !private ["PSs8Hashable", "name"]
+- ["PSs8Hashable", "parseJSONWithCompletionHandler"]
+- !private ["PSs8Hashable", "print"]
+- !private ["PSs8Hashable", "rangeOfString"]
+- !private ["PSs8Hashable", "resume"]
+- ["PSs8Hashable", "session"]
+- !private ["PSs8Hashable", "setValue"]
+- !private ["PSs8Hashable", "sharedHTTPCookieStorage"]
+- ["PSs8Hashable", "sharedInstance"]
+- !private ["PSs8Hashable", "sharedSession"]
+- !private ["PSs8Hashable", "stringByReplacingOccurrencesOfString"]
+- !private ["PSs8Hashable", "subdataWithRange"]
+- ["PSs8Hashable", "subtituteKeyInMethod"]
+- ["PSs8Hashable", "taskForGetUserData"]
+- ["PSs8Hashable", "taskForLogin"]
+- ["PSs8Hashable", "taskForLogout"]
+- ["PSs8Hashable", "userID"]
+- !private ["PSs8Hashable", "value"]
+- ["PSs8Hashable", ""]
+- !private ["PSs9Indexable", "Generator"]
+- !private ["PSs9Indexable", "Index"]
+- !private ["PSs9Indexable", "SubSequence"]
+- !private ["PSs9Indexable", "_Element"]
+- !private ["VSs17IndexingGenerator", "Element"]
+- !private ["Si", "Distance"]
+- !private ["Si", "IntegerLiteralType"]
+- !private ["Si", "deinit"]
+- !private ["VSs5Int16", "deinit"]
+- !private ["VSs5Int32", "deinit"]
+- !private ["VSs5Int64", "deinit"]
+- !private ["VSs4Int8", "deinit"]
+- !private ["PSs21IntegerArithmeticType", "Distance"]
+- !private ["PSs21IntegerArithmeticType", "IntegerLiteralType"]
+- !private ["PSs25IntegerLiteralConvertible", "Distance"]
+- !private ["PSs25IntegerLiteralConvertible", "IntegerLiteralType"]
+- !private ["PSs11IntegerType", "Distance"]
+- !private ["PSs11IntegerType", "IntegerLiteralType"]
+- !private ["P10On_The_Map17JSONSubscriptType", "Distance"]
+- !private ["P10On_The_Map17JSONSubscriptType", "IntegerLiteralType"]
+- !private ["P10On_The_Map17JSONSubscriptType", "init"]
+- !private ["P10On_The_Map17JSONSubscriptType", "rangeOfString"]
+- !private ["P10On_The_Map17JSONSubscriptType", "stringByReplacingOccurrencesOfString"]
+- !private ["VC10On_The_Map13UdacityClient7Methods", "GetPublicData"]
+- !private ["VC10On_The_Map13UdacityClient7Methods", "UdacityBaseURLSecure"]
+- !private ["PSs14MirrorPathType", "Distance"]
+- !private ["PSs14MirrorPathType", "IntegerLiteralType"]
+- !private ["PSs14MirrorPathType", "init"]
+- !private ["PSs14MirrorPathType", "rangeOfString"]
+- !private ["PSs14MirrorPathType", "stringByReplacingOccurrencesOfString"]
+- !private ["PSs21MutableCollectionType", "Generator"]
+- !private ["PSs21MutableCollectionType", "Index"]
+- !private ["PSs21MutableCollectionType", "SubSequence"]
+- !private ["PSs21MutableCollectionType", "_Element"]
+- !private ["PSs16MutableIndexable", "Generator"]
+- !private ["PSs16MutableIndexable", "Index"]
+- !private ["PSs16MutableIndexable", "SubSequence"]
+- !private ["PSs16MutableIndexable", "_Element"]
+- !private ["PSs16MutableSliceable", "Generator"]
+- !private ["PSs16MutableSliceable", "Index"]
+- !private ["PSs16MutableSliceable", "SubSequence"]
+- !private ["PSs16MutableSliceable", "_Element"]
+- !private ["PSo8NSCoding", "HTTPBody"]
+- !private ["PSo8NSCoding", "HTTPMethod"]
+- !private ["PSo8NSCoding", "addValue"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "length"]
+- !private ["PSo8NSCoding", "rangeOfString"]
+- !private ["PSo8NSCoding", "setValue"]
+- !private ["PSo8NSCoding", "stringByReplacingOccurrencesOfString"]
+- !private ["PSo8NSCoding", "subdataWithRange"]
+- !private ["PSo9NSCopying", "HTTPBody"]
+- !private ["PSo9NSCopying", "HTTPMethod"]
+- !private ["PSo9NSCopying", "addValue"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo9NSCopying", "length"]
+- !private ["PSo9NSCopying", "rangeOfString"]
+- !private ["PSo9NSCopying", "resume"]
+- !private ["PSo9NSCopying", "setValue"]
+- !private ["PSo9NSCopying", "stringByReplacingOccurrencesOfString"]
+- !private ["PSo9NSCopying", "subdataWithRange"]
+- !private ["CSo6NSData", "length"]
+- !private ["CSo6NSData", "subdataWithRange"]
+- !private ["CSo12NSHTTPCookie", "name"]
+- !private ["CSo12NSHTTPCookie", "value"]
+- !private ["CSo19NSHTTPCookieStorage", "cookies"]
+- !private ["CSo19NSHTTPCookieStorage", "sharedHTTPCookieStorage"]
+- !private ["VSC20NSJSONReadingOptions", "AllowFragments"]
+- !private ["CSo19NSJSONSerialization", "JSONObjectWithData"]
+- !private ["CSo19NSJSONSerialization", "dataWithJSONObject"]
+- !private ["VSC20NSJSONWritingOptions", "Element"]
+- !private ["PSo16NSMutableCopying", "HTTPBody"]
+- !private ["PSo16NSMutableCopying", "HTTPMethod"]
+- !private ["PSo16NSMutableCopying", "addValue"]
+- !private ["PSo16NSMutableCopying", "init"]
+- !private ["PSo16NSMutableCopying", "length"]
+- !private ["PSo16NSMutableCopying", "rangeOfString"]
+- !private ["PSo16NSMutableCopying", "setValue"]
+- !private ["PSo16NSMutableCopying", "stringByReplacingOccurrencesOfString"]
+- !private ["PSo16NSMutableCopying", "subdataWithRange"]
+- !private ["CSo19NSMutableURLRequest", "HTTPBody"]
+- !private ["CSo19NSMutableURLRequest", "HTTPMethod"]
+- !private ["CSo19NSMutableURLRequest", "addValue"]
+- !private ["CSo19NSMutableURLRequest", "init"]
+- !private ["CSo19NSMutableURLRequest", "setValue"]
+- ["CSo8NSObject", "AnyObject"]
+- !private ["CSo8NSObject", "HTTPBody"]
+- !private ["CSo8NSObject", "HTTPMethod"]
+- !private ["CSo8NSObject", "JSONObjectWithData"]
+- !private ["CSo8NSObject", "Methods"]
+- ["CSo8NSObject", "NSData"]
+- ["CSo8NSObject", "NSError"]
+- !private ["CSo8NSObject", "NSHTTPCookie"]
+- !private ["CSo8NSObject", "NSHTTPCookieStorage"]
+- !private ["CSo8NSObject", "NSJSONReadingOptions"]
+- !private ["CSo8NSObject", "NSJSONSerialization"]
+- !private ["CSo8NSObject", "NSMakeRange"]
+- !private ["CSo8NSObject", "NSMutableURLRequest"]
+- !private ["CSo8NSObject", "NSURL"]
+- !private ["CSo8NSObject", "NSURLRequest"]
+- ["CSo8NSObject", "NSURLSession"]
+- ["CSo8NSObject", "NSURLSessionDataTask"]
+- ["CSo8NSObject", "String"]
+- ["CSo8NSObject", "UdacityClient"]
+- ["CSo8NSObject", "Void"]
+- !private ["CSo8NSObject", "addValue"]
+- !private ["CSo8NSObject", "cookies"]
+- !private ["CSo8NSObject", "dataTaskWithRequest"]
+- !private ["CSo8NSObject", "dataWithJSONObject"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "length"]
+- !private ["CSo8NSObject", "name"]
+- ["CSo8NSObject", "parseJSONWithCompletionHandler"]
+- !private ["CSo8NSObject", "print"]
+- !private ["CSo8NSObject", "rangeOfString"]
+- !private ["CSo8NSObject", "resume"]
+- ["CSo8NSObject", "session"]
+- !private ["CSo8NSObject", "setValue"]
+- !private ["CSo8NSObject", "sharedHTTPCookieStorage"]
+- ["CSo8NSObject", "sharedInstance"]
+- !private ["CSo8NSObject", "sharedSession"]
+- !private ["CSo8NSObject", "stringByReplacingOccurrencesOfString"]
+- !private ["CSo8NSObject", "subdataWithRange"]
+- ["CSo8NSObject", "subtituteKeyInMethod"]
+- ["CSo8NSObject", "taskForGetUserData"]
+- ["CSo8NSObject", "taskForLogin"]
+- ["CSo8NSObject", "taskForLogout"]
+- ["CSo8NSObject", "userID"]
+- !private ["CSo8NSObject", "value"]
+- ["CSo8NSObject", ""]
+- !private ["PSo16NSObjectProtocol", "HTTPBody"]
+- !private ["PSo16NSObjectProtocol", "HTTPMethod"]
+- !private ["PSo16NSObjectProtocol", "JSONObjectWithData"]
+- !private ["PSo16NSObjectProtocol", "Methods"]
+- !private ["PSo16NSObjectProtocol", "NSHTTPCookieStorage"]
+- !private ["PSo16NSObjectProtocol", "NSJSONReadingOptions"]
+- !private ["PSo16NSObjectProtocol", "NSJSONSerialization"]
+- !private ["PSo16NSObjectProtocol", "NSMakeRange"]
+- !private ["PSo16NSObjectProtocol", "NSMutableURLRequest"]
+- !private ["PSo16NSObjectProtocol", "NSURL"]
+- !private ["PSo16NSObjectProtocol", "NSURLRequest"]
+- !private ["PSo16NSObjectProtocol", "NSURLSession"]
+- !private ["PSo16NSObjectProtocol", "UdacityClient"]
+- !private ["PSo16NSObjectProtocol", "addValue"]
+- !private ["PSo16NSObjectProtocol", "cookies"]
+- !private ["PSo16NSObjectProtocol", "dataTaskWithRequest"]
+- !private ["PSo16NSObjectProtocol", "dataWithJSONObject"]
+- ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "length"]
+- !private ["PSo16NSObjectProtocol", "name"]
+- ["PSo16NSObjectProtocol", "parseJSONWithCompletionHandler"]
+- !private ["PSo16NSObjectProtocol", "print"]
+- !private ["PSo16NSObjectProtocol", "rangeOfString"]
+- !private ["PSo16NSObjectProtocol", "resume"]
+- ["PSo16NSObjectProtocol", "session"]
+- !private ["PSo16NSObjectProtocol", "setValue"]
+- !private ["PSo16NSObjectProtocol", "sharedHTTPCookieStorage"]
+- ["PSo16NSObjectProtocol", "sharedInstance"]
+- !private ["PSo16NSObjectProtocol", "sharedSession"]
+- !private ["PSo16NSObjectProtocol", "stringByReplacingOccurrencesOfString"]
+- !private ["PSo16NSObjectProtocol", "subdataWithRange"]
+- ["PSo16NSObjectProtocol", "subtituteKeyInMethod"]
+- ["PSo16NSObjectProtocol", "taskForGetUserData"]
+- ["PSo16NSObjectProtocol", "taskForLogin"]
+- ["PSo16NSObjectProtocol", "taskForLogout"]
+- ["PSo16NSObjectProtocol", "userID"]
+- !private ["PSo16NSObjectProtocol", "value"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo14NSSecureCoding", "HTTPBody"]
+- !private ["PSo14NSSecureCoding", "HTTPMethod"]
+- !private ["PSo14NSSecureCoding", "addValue"]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["PSo14NSSecureCoding", "length"]
+- !private ["PSo14NSSecureCoding", "rangeOfString"]
+- !private ["PSo14NSSecureCoding", "setValue"]
+- !private ["PSo14NSSecureCoding", "stringByReplacingOccurrencesOfString"]
+- !private ["PSo14NSSecureCoding", "subdataWithRange"]
+- !private ["CSo8NSString", "init"]
+- !private ["CSo8NSString", "rangeOfString"]
+- !private ["CSo8NSString", "stringByReplacingOccurrencesOfString"]
+- !private ["CSo5NSURL", "init"]
+- !private ["CSo12NSURLRequest", "HTTPBody"]
+- !private ["CSo12NSURLRequest", "HTTPMethod"]
+- !private ["CSo12NSURLRequest", "addValue"]
+- !private ["CSo12NSURLRequest", "init"]
+- !private ["CSo12NSURLRequest", "setValue"]
+- !private ["CSo12NSURLSession", "dataTaskWithRequest"]
+- !private ["CSo12NSURLSession", "sharedSession"]
+- !private ["CSo20NSURLSessionDataTask", "resume"]
+- !private ["CSo16NSURLSessionTask", "resume"]
+- ["PSs21NilLiteralConvertible", "Some"]
+- !private ["PSs13OptionSetType", "AllowFragments"]
+- !private ["PSs13OptionSetType", "Element"]
+- ["Sq", "Some"]
+- !private ["Sq", "deinit"]
+- !private ["PSs16OutputStreamType", "init"]
+- !private ["PSs16OutputStreamType", "rangeOfString"]
+- !private ["PSs16OutputStreamType", "stringByReplacingOccurrencesOfString"]
+- !private ["PSs21RandomAccessIndexType", "Distance"]
+- !private ["PSs21RandomAccessIndexType", "IntegerLiteralType"]
+- !private ["PSs30RangeReplaceableCollectionType", "Generator"]
+- !private ["PSs30RangeReplaceableCollectionType", "Index"]
+- !private ["PSs30RangeReplaceableCollectionType", "SubSequence"]
+- !private ["PSs30RangeReplaceableCollectionType", "_Element"]
+- !private ["PSs16RawRepresentable", "AllowFragments"]
+- !private ["PSs16RawRepresentable", "Element"]
+- !private ["PSs12SequenceType", "Element"]
+- !private ["PSs12SequenceType", "Generator"]
+- !private ["PSs12SequenceType", "Index"]
+- !private ["PSs12SequenceType", "SubSequence"]
+- !private ["PSs12SequenceType", "_Element"]
+- !private ["PSs14SetAlgebraType", "AllowFragments"]
+- !private ["PSs14SetAlgebraType", "Element"]
+- !private ["PSs17SignedIntegerType", "Distance"]
+- !private ["PSs17SignedIntegerType", "IntegerLiteralType"]
+- !private ["PSs16SignedNumberType", "Distance"]
+- !private ["PSs16SignedNumberType", "IntegerLiteralType"]
+- !private ["PSs10Streamable", "init"]
+- !private ["PSs10Streamable", "rangeOfString"]
+- !private ["PSs10Streamable", "stringByReplacingOccurrencesOfString"]
+- !private ["PSs10Strideable", "Distance"]
+- !private ["PSs10Strideable", "IntegerLiteralType"]
+- !private ["SS", "init"]
+- !private ["SS", "rangeOfString"]
+- !private ["SS", "stringByReplacingOccurrencesOfString"]
+- !private ["PSs30StringInterpolationConvertible", "init"]
+- !private ["PSs30StringInterpolationConvertible", "rangeOfString"]
+- !private ["PSs30StringInterpolationConvertible", "stringByReplacingOccurrencesOfString"]
+- !private ["PSs24StringLiteralConvertible", "init"]
+- !private ["PSs24StringLiteralConvertible", "rangeOfString"]
+- !private ["PSs24StringLiteralConvertible", "stringByReplacingOccurrencesOfString"]
+- !private ["Su", "deinit"]
+- !private ["VSs6UInt16", "deinit"]
+- !private ["VSs6UInt32", "deinit"]
+- !private ["VSs6UInt64", "deinit"]
+- !private ["VSs5UInt8", "deinit"]
+- ["C10On_The_Map13UdacityClient", "AnyObject"]
+- !private ["C10On_The_Map13UdacityClient", "Methods"]
+- ["C10On_The_Map13UdacityClient", "NSData"]
+- ["C10On_The_Map13UdacityClient", "NSError"]
+- !private ["C10On_The_Map13UdacityClient", "NSHTTPCookie"]
+- !private ["C10On_The_Map13UdacityClient", "NSHTTPCookieStorage"]
+- !private ["C10On_The_Map13UdacityClient", "NSJSONReadingOptions"]
+- !private ["C10On_The_Map13UdacityClient", "NSJSONSerialization"]
+- !private ["C10On_The_Map13UdacityClient", "NSMakeRange"]
+- !private ["C10On_The_Map13UdacityClient", "NSMutableURLRequest"]
+- !private ["C10On_The_Map13UdacityClient", "NSURL"]
+- !private ["C10On_The_Map13UdacityClient", "NSURLRequest"]
+- ["C10On_The_Map13UdacityClient", "NSURLSession"]
+- ["C10On_The_Map13UdacityClient", "NSURLSessionDataTask"]
+- ["C10On_The_Map13UdacityClient", "String"]
+- ["C10On_The_Map13UdacityClient", "UdacityClient"]
+- ["C10On_The_Map13UdacityClient", "Void"]
+- ["C10On_The_Map13UdacityClient", "deinit"]
+- ["C10On_The_Map13UdacityClient", "init"]
+- ["C10On_The_Map13UdacityClient", "parseJSONWithCompletionHandler"]
+- !private ["C10On_The_Map13UdacityClient", "print"]
+- ["C10On_The_Map13UdacityClient", "session"]
+- ["C10On_The_Map13UdacityClient", "sharedInstance"]
+- ["C10On_The_Map13UdacityClient", "subtituteKeyInMethod"]
+- ["C10On_The_Map13UdacityClient", "taskForGetUserData"]
+- ["C10On_The_Map13UdacityClient", "taskForLogin"]
+- ["C10On_The_Map13UdacityClient", "taskForLogout"]
+- ["C10On_The_Map13UdacityClient", "userID"]
+- !private ["PSs31UnicodeScalarLiteralConvertible", "init"]
+- !private ["PSs31UnicodeScalarLiteralConvertible", "rangeOfString"]
+- !private ["PSs31UnicodeScalarLiteralConvertible", "stringByReplacingOccurrencesOfString"]
+- !private ["PSs10_ArrayType", "Generator"]
+- !private ["PSs10_ArrayType", "Index"]
+- !private ["PSs10_ArrayType", "SubSequence"]
+- !private ["PSs10_ArrayType", "_Element"]
+- !private ["PSs33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs49_BuiltinExtendedGraphemeClusterLiteralConvertible", "init"]
+- !private ["PSs49_BuiltinExtendedGraphemeClusterLiteralConvertible", "rangeOfString"]
+- !private ["PSs49_BuiltinExtendedGraphemeClusterLiteralConvertible", "stringByReplacingOccurrencesOfString"]
+- !private ["PSs33_BuiltinIntegerLiteralConvertible", "Distance"]
+- !private ["PSs33_BuiltinIntegerLiteralConvertible", "IntegerLiteralType"]
+- !private ["PSs32_BuiltinStringLiteralConvertible", "init"]
+- !private ["PSs32_BuiltinStringLiteralConvertible", "rangeOfString"]
+- !private ["PSs32_BuiltinStringLiteralConvertible", "stringByReplacingOccurrencesOfString"]
+- !private ["PSs37_BuiltinUTF16StringLiteralConvertible", "init"]
+- !private ["PSs37_BuiltinUTF16StringLiteralConvertible", "rangeOfString"]
+- !private ["PSs37_BuiltinUTF16StringLiteralConvertible", "stringByReplacingOccurrencesOfString"]
+- !private ["PSs39_BuiltinUnicodeScalarLiteralConvertible", "init"]
+- !private ["PSs39_BuiltinUnicodeScalarLiteralConvertible", "rangeOfString"]
+- !private ["PSs39_BuiltinUnicodeScalarLiteralConvertible", "stringByReplacingOccurrencesOfString"]
+- !private ["PSs16_CocoaStringType", "init"]
+- !private ["PSs16_CocoaStringType", "rangeOfString"]
+- !private ["PSs16_CocoaStringType", "stringByReplacingOccurrencesOfString"]
+- !private ["PSs24_DestructorSafeContainer", "Generator"]
+- !private ["PSs24_DestructorSafeContainer", "Index"]
+- !private ["PSs24_DestructorSafeContainer", "SubSequence"]
+- !private ["PSs24_DestructorSafeContainer", "_Element"]
+- !private ["PSs32_FileReferenceLiteralConvertible", "init"]
+- !private ["PSs14_Incrementable", "Distance"]
+- !private ["PSs14_Incrementable", "IntegerLiteralType"]
+- !private ["PSs22_IntegerArithmeticType", "Distance"]
+- !private ["PSs22_IntegerArithmeticType", "IntegerLiteralType"]
+- !private ["PSs12_IntegerType", "Distance"]
+- !private ["PSs12_IntegerType", "IntegerLiteralType"]
+- !private ["PSs21_ObjectiveCBridgeable", "Distance"]
+- !private ["PSs21_ObjectiveCBridgeable", "Generator"]
+- !private ["PSs21_ObjectiveCBridgeable", "Index"]
+- !private ["PSs21_ObjectiveCBridgeable", "IntegerLiteralType"]
+- !private ["PSs21_ObjectiveCBridgeable", "SubSequence"]
+- !private ["PSs21_ObjectiveCBridgeable", "_Element"]
+- !private ["PSs21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["PSs21_ObjectiveCBridgeable", "init"]
+- !private ["PSs21_ObjectiveCBridgeable", "rangeOfString"]
+- !private ["PSs21_ObjectiveCBridgeable", "stringByReplacingOccurrencesOfString"]
+- !private ["VSs26_OptionalNilComparisonType", "deinit"]
+- !private ["PSs22_RandomAccessAmbiguity", "Distance"]
+- !private ["PSs22_RandomAccessAmbiguity", "IntegerLiteralType"]
+- !private ["PSs12_Reflectable", "Distance"]
+- !private ["PSs12_Reflectable", "Generator"]
+- !private ["PSs12_Reflectable", "Index"]
+- !private ["PSs12_Reflectable", "IntegerLiteralType"]
+- ["PSs12_Reflectable", "Some"]
+- !private ["PSs12_Reflectable", "SubSequence"]
+- !private ["PSs12_Reflectable", "_Element"]
+- !private ["PSs12_Reflectable", "_getBuiltinLogicValue"]
+- !private ["PSs12_Reflectable", "init"]
+- !private ["PSs12_Reflectable", "rangeOfString"]
+- !private ["PSs12_Reflectable", "stringByReplacingOccurrencesOfString"]
+- !private ["PSs18_SignedIntegerType", "Distance"]
+- !private ["PSs18_SignedIntegerType", "IntegerLiteralType"]
+- !private ["PSs11_Strideable", "Distance"]
+- !private ["PSs11_Strideable", "IntegerLiteralType"]
+depends-nominal:
+- "PSs9AnyObject"
+- !private "Sa"
+- !private "PSs23ArrayLiteralConvertible"
+- !private "VSs10ArraySlice"
+- !private "PSs22BidirectionalIndexType"
+- !private "PSs21BitwiseOperationsType"
+- !private "Sb"
+- !private "PSs25BooleanLiteralConvertible"
+- !private "PSs11BooleanType"
+- "PSs11CVarArgType"
+- !private "PSs14CollectionType"
+- !private "PSs10Comparable"
+- "PSs28CustomDebugStringConvertible"
+- "PSs23CustomStringConvertible"
+- !private "VSs10Dictionary"
+- !private "Sd"
+- "PSs9Equatable"
+- !private "PSs41ExtendedGraphemeClusterLiteralConvertible"
+- !private "Sf"
+- !private "PSs16ForwardIndexType"
+- !private "PSs13GeneratorType"
+- "PSs8Hashable"
+- !private "PSs9Indexable"
+- !private "VSs17IndexingGenerator"
+- !private "Si"
+- !private "VSs5Int16"
+- !private "VSs5Int32"
+- !private "VSs5Int64"
+- !private "VSs4Int8"
+- !private "PSs21IntegerArithmeticType"
+- !private "PSs25IntegerLiteralConvertible"
+- !private "PSs11IntegerType"
+- !private "P10On_The_Map17JSONSubscriptType"
+- !private "VC10On_The_Map13UdacityClient7Methods"
+- !private "PSs14MirrorPathType"
+- !private "PSs21MutableCollectionType"
+- !private "PSs16MutableIndexable"
+- !private "PSs16MutableSliceable"
+- !private "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "CSo6NSData"
+- !private "CSo12NSHTTPCookie"
+- !private "CSo19NSHTTPCookieStorage"
+- !private "VSC20NSJSONReadingOptions"
+- !private "CSo19NSJSONSerialization"
+- !private "VSC20NSJSONWritingOptions"
+- !private "PSo16NSMutableCopying"
+- !private "CSo19NSMutableURLRequest"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- !private "CSo5NSURL"
+- !private "CSo12NSURLRequest"
+- !private "CSo12NSURLSession"
+- !private "CSo20NSURLSessionDataTask"
+- !private "CSo16NSURLSessionTask"
+- "PSs21NilLiteralConvertible"
+- !private "PSs13OptionSetType"
+- "Sq"
+- !private "PSs16OutputStreamType"
+- !private "PSs21RandomAccessIndexType"
+- !private "PSs30RangeReplaceableCollectionType"
+- !private "PSs16RawRepresentable"
+- !private "PSs12SequenceType"
+- !private "PSs14SetAlgebraType"
+- !private "PSs17SignedIntegerType"
+- !private "PSs16SignedNumberType"
+- !private "PSs10Streamable"
+- !private "PSs10Strideable"
+- !private "SS"
+- !private "PSs30StringInterpolationConvertible"
+- !private "PSs24StringLiteralConvertible"
+- !private "Su"
+- !private "VSs6UInt16"
+- !private "VSs6UInt32"
+- !private "VSs6UInt64"
+- !private "VSs5UInt8"
+- "C10On_The_Map13UdacityClient"
+- !private "PSs31UnicodeScalarLiteralConvertible"
+- !private "PSs10_ArrayType"
+- !private "PSs33_BuiltinBooleanLiteralConvertible"
+- !private "PSs49_BuiltinExtendedGraphemeClusterLiteralConvertible"
+- !private "PSs33_BuiltinIntegerLiteralConvertible"
+- !private "PSs32_BuiltinStringLiteralConvertible"
+- !private "PSs37_BuiltinUTF16StringLiteralConvertible"
+- !private "PSs39_BuiltinUnicodeScalarLiteralConvertible"
+- !private "PSs16_CocoaStringType"
+- !private "PSs24_DestructorSafeContainer"
+- !private "PSs32_FileReferenceLiteralConvertible"
+- !private "PSs14_Incrementable"
+- !private "PSs22_IntegerArithmeticType"
+- !private "PSs12_IntegerType"
+- !private "PSs21_ObjectiveCBridgeable"
+- !private "VSs26_OptionalNilComparisonType"
+- !private "PSs22_RandomAccessAmbiguity"
+- "PSs12_Reflectable"
+- !private "PSs18_SignedIntegerType"
+- !private "PSs11_Strideable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Users/Brwong/Desktop/iOS Apps/On The Map/On The Map/On The Map-Bridging-Header.h"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreLocation.swiftmodule"
+- "/Users/Brwong/Downloads/FacebookSDKs-iOS-20150910/Bolts.framework/Headers/BFWebViewAppLinkResolver.h"
+- "/Users/Brwong/Downloads/FacebookSDKs-iOS-20150910/Bolts.framework/Headers/BFURL.h"
+- "/Users/Brwong/Downloads/FacebookSDKs-iOS-20150910/Bolts.framework/Headers/BFMeasurementEvent.h"
+- "/Users/Brwong/Downloads/FacebookSDKs-iOS-20150910/Bolts.framework/Headers/BFAppLinkTarget.h"
+- "/Users/Brwong/Downloads/FacebookSDKs-iOS-20150910/Bolts.framework/Headers/BFAppLinkReturnToRefererView.h"
+- "/Users/Brwong/Downloads/FacebookSDKs-iOS-20150910/Bolts.framework/Headers/BFAppLinkReturnToRefererController.h"
+- "/Users/Brwong/Downloads/FacebookSDKs-iOS-20150910/Bolts.framework/Headers/BFAppLinkResolving.h"
+- "/Users/Brwong/Downloads/FacebookSDKs-iOS-20150910/Bolts.framework/Headers/BFAppLink.h"
+- "/Users/Brwong/Downloads/FacebookSDKs-iOS-20150910/Bolts.framework/Headers/BFAppLinkNavigation.h"
+- "/Users/Brwong/Downloads/FacebookSDKs-iOS-20150910/Bolts.framework/Headers/BFTaskCompletionSource.h"
+- "/Users/Brwong/Downloads/FacebookSDKs-iOS-20150910/Bolts.framework/Headers/BFTask.h"
+- "/Users/Brwong/Downloads/FacebookSDKs-iOS-20150910/Bolts.framework/Headers/BFExecutor.h"
+- "/Users/Brwong/Downloads/FacebookSDKs-iOS-20150910/Bolts.framework/Headers/BFDefines.h"
+- "/Users/Brwong/Downloads/FacebookSDKs-iOS-20150910/Bolts.framework/Headers/BFCancellationTokenSource.h"
+- "/Users/Brwong/Downloads/FacebookSDKs-iOS-20150910/Bolts.framework/Headers/BFCancellationTokenRegistration.h"
+- "/Users/Brwong/Downloads/FacebookSDKs-iOS-20150910/Bolts.framework/Headers/BFCancellationToken.h"
+- "/Users/Brwong/Downloads/FacebookSDKs-iOS-20150910/Bolts.framework/Headers/BoltsVersion.h"
+- "/Users/Brwong/Downloads/FacebookSDKs-iOS-20150910/Bolts.framework/Headers/Bolts.h"
+- "/Users/Brwong/Downloads/FacebookSDKs-iOS-20150910/Bolts.framework/Modules/module.modulemap"
+- "/Users/Brwong/Downloads/FacebookSDKs-iOS-20150910/FBSDKCoreKit.framework/Headers/FBSDKGraphRequestDataAttachment.h"
+- "/Users/Brwong/Downloads/FacebookSDKs-iOS-20150910/FBSDKCoreKit.framework/Headers/FBSDKGraphErrorRecoveryProcessor.h"
+- "/Users/Brwong/Downloads/FacebookSDKs-iOS-20150910/FBSDKCoreKit.framework/Headers/FBSDKAppLinkResolver.h"
+- "/Users/Brwong/Downloads/FacebookSDKs-iOS-20150910/FBSDKCoreKit.framework/Headers/FBSDKButton.h"
+- "/Users/Brwong/Downloads/FacebookSDKs-iOS-20150910/FBSDKCoreKit.framework/Headers/FBSDKUtility.h"
+- "/Users/Brwong/Downloads/FacebookSDKs-iOS-20150910/FBSDKCoreKit.framework/Headers/FBSDKTestUsersManager.h"
+- "/Users/Brwong/Downloads/FacebookSDKs-iOS-20150910/FBSDKCoreKit.framework/Headers/FBSDKSettings.h"
+- "/Users/Brwong/Downloads/FacebookSDKs-iOS-20150910/FBSDKCoreKit.framework/Headers/FBSDKProfilePictureView.h"
+- "/Users/Brwong/Downloads/FacebookSDKs-iOS-20150910/FBSDKCoreKit.framework/Headers/FBSDKProfile.h"
+- "/Users/Brwong/Downloads/FacebookSDKs-iOS-20150910/FBSDKCoreKit.framework/Headers/FBSDKMutableCopying.h"
+- "/Users/Brwong/Downloads/FacebookSDKs-iOS-20150910/FBSDKCoreKit.framework/Headers/FBSDKGraphRequest.h"
+- "/Users/Brwong/Downloads/FacebookSDKs-iOS-20150910/FBSDKCoreKit.framework/Headers/FBSDKConstants.h"
+- "/Users/Brwong/Downloads/FacebookSDKs-iOS-20150910/FBSDKCoreKit.framework/Headers/FBSDKApplicationDelegate.h"
+- "/Users/Brwong/Downloads/FacebookSDKs-iOS-20150910/FBSDKCoreKit.framework/Headers/FBSDKAppLinkUtility.h"
+- "/Users/Brwong/Downloads/FacebookSDKs-iOS-20150910/FBSDKCoreKit.framework/Headers/FBSDKAppEvents.h"
+- "/Users/Brwong/Downloads/FacebookSDKs-iOS-20150910/FBSDKCoreKit.framework/Headers/FBSDKMacros.h"
+- "/Users/Brwong/Downloads/FacebookSDKs-iOS-20150910/FBSDKCoreKit.framework/Headers/FBSDKGraphRequestConnection.h"
+- "/Users/Brwong/Downloads/FacebookSDKs-iOS-20150910/FBSDKCoreKit.framework/Headers/FBSDKCopying.h"
+- "/Users/Brwong/Downloads/FacebookSDKs-iOS-20150910/FBSDKCoreKit.framework/Headers/FBSDKAccessToken.h"
+- "/Users/Brwong/Downloads/FacebookSDKs-iOS-20150910/FBSDKCoreKit.framework/Headers/FBSDKCoreKit.h"
+- "/Users/Brwong/Downloads/FacebookSDKs-iOS-20150910/FBSDKCoreKit.framework/Modules/module.modulemap"
+- "/Users/Brwong/Downloads/FacebookSDKs-iOS-20150910/FBSDKLoginKit.framework/Headers/FBSDKLoginTooltipView.h"
+- "/Users/Brwong/Downloads/FacebookSDKs-iOS-20150910/FBSDKLoginKit.framework/Headers/FBSDKLoginManagerLoginResult.h"
+- "/Users/Brwong/Downloads/FacebookSDKs-iOS-20150910/FBSDKLoginKit.framework/Headers/FBSDKLoginConstants.h"
+- "/Users/Brwong/Downloads/FacebookSDKs-iOS-20150910/FBSDKLoginKit.framework/Headers/FBSDKTooltipView.h"
+- "/Users/Brwong/Downloads/FacebookSDKs-iOS-20150910/FBSDKLoginKit.framework/Headers/FBSDKLoginManager.h"
+- "/Users/Brwong/Downloads/FacebookSDKs-iOS-20150910/FBSDKLoginKit.framework/Headers/FBSDKLoginButton.h"
+- "/Users/Brwong/Downloads/FacebookSDKs-iOS-20150910/FBSDKLoginKit.framework/Headers/FBSDKLoginKit.h"
+- "/Users/Brwong/Downloads/FacebookSDKs-iOS-20150910/FBSDKLoginKit.framework/Modules/module.modulemap"
+interface-hash: "00bc507c35271f42974d82e127b81d9e"

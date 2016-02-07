@@ -1,0 +1,8 @@
+[
+ {
+  "file": "/Users/Brwong/Desktop/iOS Apps/On The Map/On The Map/LoginViewController.swift",
+  "offset": 710,
+  "remove": 65,
+  "text": "(\"Not logged into facebook\")\n        }else{\n            print",
+ }
+]

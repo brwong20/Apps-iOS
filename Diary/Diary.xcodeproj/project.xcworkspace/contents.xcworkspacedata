@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:../DiaryEntry.h">
+   </FileRef>
+   <FileRef
+      location = "group:../DiaryEntry.m">
+   </FileRef>
+   <FileRef
+      location = "self:Diary.xcodeproj">
+   </FileRef>
+</Workspace>

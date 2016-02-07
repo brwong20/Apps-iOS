@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "EF977329EF7475699BD3D0782BD65D15628C5BF8",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "EF977329EF7475699BD3D0782BD65D15628C5BF8" : 0,
+    "C17526F97783298D1E79F4B16599DE7C0655D2D1" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "27FF2FD8-5DA5-4FE9-BF54-B7B9CE447BCC",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "EF977329EF7475699BD3D0782BD65D15628C5BF8" : "Photo%20Bombers\/",
+    "C17526F97783298D1E79F4B16599DE7C0655D2D1" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Photo Bombers",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Photo Bombers.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/brwong20\/iOS-Apps.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "C17526F97783298D1E79F4B16599DE7C0655D2D1"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/brwong20\/HashTagger.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "EF977329EF7475699BD3D0782BD65D15628C5BF8"
+    }
+  ]
+}

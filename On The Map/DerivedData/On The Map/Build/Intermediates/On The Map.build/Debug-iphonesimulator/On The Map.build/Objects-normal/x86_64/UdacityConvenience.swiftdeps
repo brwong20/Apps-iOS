@@ -1,0 +1,223 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["C10On_The_Map13UdacityClient", ""]
+- ["C10On_The_Map13UdacityClient", "authenticateWithViewController"]
+- ["C10On_The_Map13UdacityClient", "loginWithInfo"]
+provides-dynamic-lookup:
+- "loginWithInfo"
+- "authenticateWithViewController"
+depends-top-level:
+- "Void"
+- !private "NSDictionary"
+- "String"
+- !private "AnyObject"
+- "UdacityClient"
+- !private "print"
+- "UIViewController"
+- "StringLiteralType"
+- "Bool"
+- !private "!="
+- "BooleanLiteralType"
+- !private "Dictionary"
+depends-member:
+- !private ["PSs9AnyObject", "JSONBodyKeys"]
+- !private ["PSs9AnyObject", "JSONResponseKeys"]
+- ["PSs9AnyObject", "authenticateWithViewController"]
+- ["PSs9AnyObject", "loginWithInfo"]
+- !private ["PSs9AnyObject", "print"]
+- !private ["PSs9AnyObject", "taskForLogin"]
+- !private ["PSs9AnyObject", "userID"]
+- !private ["PSs9AnyObject", "valueForKey"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["PSs25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs11BooleanType", "_getBuiltinLogicValue"]
+- !private ["PSs11CVarArgType", "JSONBodyKeys"]
+- !private ["PSs11CVarArgType", "JSONResponseKeys"]
+- ["PSs11CVarArgType", "authenticateWithViewController"]
+- ["PSs11CVarArgType", "loginWithInfo"]
+- !private ["PSs11CVarArgType", "print"]
+- !private ["PSs11CVarArgType", "taskForLogin"]
+- !private ["PSs11CVarArgType", "userID"]
+- !private ["PSs14CollectionType", "Key"]
+- !private ["PSs14CollectionType", "Value"]
+- !private ["PSs28CustomDebugStringConvertible", "Key"]
+- !private ["PSs28CustomDebugStringConvertible", "Some"]
+- !private ["PSs28CustomDebugStringConvertible", "Value"]
+- !private ["PSs23CustomStringConvertible", "JSONBodyKeys"]
+- !private ["PSs23CustomStringConvertible", "JSONResponseKeys"]
+- !private ["PSs23CustomStringConvertible", "Key"]
+- !private ["PSs23CustomStringConvertible", "Value"]
+- !private ["PSs23CustomStringConvertible", "_getBuiltinLogicValue"]
+- ["PSs23CustomStringConvertible", "authenticateWithViewController"]
+- ["PSs23CustomStringConvertible", "loginWithInfo"]
+- !private ["PSs23CustomStringConvertible", "print"]
+- !private ["PSs23CustomStringConvertible", "taskForLogin"]
+- !private ["PSs23CustomStringConvertible", "userID"]
+- !private ["VSs10Dictionary", "Key"]
+- !private ["VSs10Dictionary", "Value"]
+- !private ["PSs28DictionaryLiteralConvertible", "Key"]
+- !private ["PSs28DictionaryLiteralConvertible", "Value"]
+- !private ["PSs9Equatable", "JSONBodyKeys"]
+- !private ["PSs9Equatable", "JSONResponseKeys"]
+- !private ["PSs9Equatable", "_getBuiltinLogicValue"]
+- ["PSs9Equatable", "authenticateWithViewController"]
+- ["PSs9Equatable", "loginWithInfo"]
+- !private ["PSs9Equatable", "print"]
+- !private ["PSs9Equatable", "taskForLogin"]
+- !private ["PSs9Equatable", "userID"]
+- !private ["PSs8Hashable", "JSONBodyKeys"]
+- !private ["PSs8Hashable", "JSONResponseKeys"]
+- !private ["PSs8Hashable", "_getBuiltinLogicValue"]
+- ["PSs8Hashable", "authenticateWithViewController"]
+- ["PSs8Hashable", "loginWithInfo"]
+- !private ["PSs8Hashable", "print"]
+- !private ["PSs8Hashable", "taskForLogin"]
+- !private ["PSs8Hashable", "userID"]
+- !private ["SQ", "deinit"]
+- !private ["PSs9Indexable", "Key"]
+- !private ["PSs9Indexable", "Value"]
+- !private ["VC10On_The_Map13UdacityClient12JSONBodyKeys", "Password"]
+- !private ["VC10On_The_Map13UdacityClient12JSONBodyKeys", "Udacity"]
+- !private ["VC10On_The_Map13UdacityClient12JSONBodyKeys", "Username"]
+- !private ["VC10On_The_Map13UdacityClient16JSONResponseKeys", "AccountLogin"]
+- !private ["VC10On_The_Map13UdacityClient16JSONResponseKeys", "UserID"]
+- !private ["CSo8NSObject", "AnyObject"]
+- ["CSo8NSObject", "Bool"]
+- !private ["CSo8NSObject", "JSONBodyKeys"]
+- !private ["CSo8NSObject", "JSONResponseKeys"]
+- !private ["CSo8NSObject", "NSDictionary"]
+- ["CSo8NSObject", "String"]
+- ["CSo8NSObject", "UIViewController"]
+- ["CSo8NSObject", "Void"]
+- ["CSo8NSObject", "authenticateWithViewController"]
+- ["CSo8NSObject", "loginWithInfo"]
+- !private ["CSo8NSObject", "print"]
+- !private ["CSo8NSObject", "taskForLogin"]
+- !private ["CSo8NSObject", "userID"]
+- !private ["PSo16NSObjectProtocol", "JSONBodyKeys"]
+- !private ["PSo16NSObjectProtocol", "JSONResponseKeys"]
+- ["PSo16NSObjectProtocol", "authenticateWithViewController"]
+- ["PSo16NSObjectProtocol", "loginWithInfo"]
+- !private ["PSo16NSObjectProtocol", "print"]
+- !private ["PSo16NSObjectProtocol", "taskForLogin"]
+- !private ["PSo16NSObjectProtocol", "userID"]
+- !private ["PSs21NilLiteralConvertible", "Some"]
+- !private ["Sq", "Some"]
+- !private ["Sq", "deinit"]
+- !private ["PSs12SequenceType", "Key"]
+- !private ["PSs12SequenceType", "Value"]
+- !private ["SS", "deinit"]
+- !private ["C10On_The_Map13UdacityClient", "AnyObject"]
+- ["C10On_The_Map13UdacityClient", "Bool"]
+- !private ["C10On_The_Map13UdacityClient", "JSONBodyKeys"]
+- !private ["C10On_The_Map13UdacityClient", "JSONResponseKeys"]
+- !private ["C10On_The_Map13UdacityClient", "NSDictionary"]
+- ["C10On_The_Map13UdacityClient", "String"]
+- ["C10On_The_Map13UdacityClient", "UIViewController"]
+- ["C10On_The_Map13UdacityClient", "Void"]
+- ["C10On_The_Map13UdacityClient", "authenticateWithViewController"]
+- ["C10On_The_Map13UdacityClient", "loginWithInfo"]
+- !private ["C10On_The_Map13UdacityClient", "print"]
+- !private ["C10On_The_Map13UdacityClient", "taskForLogin"]
+- !private ["C10On_The_Map13UdacityClient", "userID"]
+- !private ["PSs33_BuiltinBooleanLiteralConvertible", "_getBuiltinLogicValue"]
+- !private ["PSs21_ObjectiveCBridgeable", "Key"]
+- !private ["PSs21_ObjectiveCBridgeable", "Value"]
+- !private ["PSs21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["VSs26_OptionalNilComparisonType", "deinit"]
+- !private ["PSs12_Reflectable", "Key"]
+- !private ["PSs12_Reflectable", "Some"]
+- !private ["PSs12_Reflectable", "Value"]
+- !private ["PSs12_Reflectable", "_getBuiltinLogicValue"]
+depends-nominal:
+- "PSs9AnyObject"
+- !private "Sb"
+- !private "PSs25BooleanLiteralConvertible"
+- !private "PSs11BooleanType"
+- "PSs11CVarArgType"
+- !private "PSs14CollectionType"
+- !private "PSs28CustomDebugStringConvertible"
+- "PSs23CustomStringConvertible"
+- !private "VSs10Dictionary"
+- !private "PSs28DictionaryLiteralConvertible"
+- "PSs9Equatable"
+- "PSs8Hashable"
+- !private "SQ"
+- !private "PSs9Indexable"
+- !private "VC10On_The_Map13UdacityClient12JSONBodyKeys"
+- !private "VC10On_The_Map13UdacityClient16JSONResponseKeys"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSs21NilLiteralConvertible"
+- !private "Sq"
+- !private "PSs12SequenceType"
+- !private "SS"
+- "C10On_The_Map13UdacityClient"
+- !private "PSs33_BuiltinBooleanLiteralConvertible"
+- !private "PSs21_ObjectiveCBridgeable"
+- !private "VSs26_OptionalNilComparisonType"
+- !private "PSs12_Reflectable"
+depends-dynamic-lookup:
+- !private "valueForKey"
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Users/Brwong/Desktop/iOS Apps/On The Map/On The Map/On The Map-Bridging-Header.h"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
+- "/Users/Brwong/Downloads/FacebookSDKs-iOS-20150910/Bolts.framework/Headers/BFWebViewAppLinkResolver.h"
+- "/Users/Brwong/Downloads/FacebookSDKs-iOS-20150910/Bolts.framework/Headers/BFURL.h"
+- "/Users/Brwong/Downloads/FacebookSDKs-iOS-20150910/Bolts.framework/Headers/BFMeasurementEvent.h"
+- "/Users/Brwong/Downloads/FacebookSDKs-iOS-20150910/Bolts.framework/Headers/BFAppLinkTarget.h"
+- "/Users/Brwong/Downloads/FacebookSDKs-iOS-20150910/Bolts.framework/Headers/BFAppLinkReturnToRefererView.h"
+- "/Users/Brwong/Downloads/FacebookSDKs-iOS-20150910/Bolts.framework/Headers/BFAppLinkReturnToRefererController.h"
+- "/Users/Brwong/Downloads/FacebookSDKs-iOS-20150910/Bolts.framework/Headers/BFAppLinkResolving.h"
+- "/Users/Brwong/Downloads/FacebookSDKs-iOS-20150910/Bolts.framework/Headers/BFAppLink.h"
+- "/Users/Brwong/Downloads/FacebookSDKs-iOS-20150910/Bolts.framework/Headers/BFAppLinkNavigation.h"
+- "/Users/Brwong/Downloads/FacebookSDKs-iOS-20150910/Bolts.framework/Headers/BFTaskCompletionSource.h"
+- "/Users/Brwong/Downloads/FacebookSDKs-iOS-20150910/Bolts.framework/Headers/BFTask.h"
+- "/Users/Brwong/Downloads/FacebookSDKs-iOS-20150910/Bolts.framework/Headers/BFExecutor.h"
+- "/Users/Brwong/Downloads/FacebookSDKs-iOS-20150910/Bolts.framework/Headers/BFDefines.h"
+- "/Users/Brwong/Downloads/FacebookSDKs-iOS-20150910/Bolts.framework/Headers/BFCancellationTokenSource.h"
+- "/Users/Brwong/Downloads/FacebookSDKs-iOS-20150910/Bolts.framework/Headers/BFCancellationTokenRegistration.h"
+- "/Users/Brwong/Downloads/FacebookSDKs-iOS-20150910/Bolts.framework/Headers/BFCancellationToken.h"
+- "/Users/Brwong/Downloads/FacebookSDKs-iOS-20150910/Bolts.framework/Headers/BoltsVersion.h"
+- "/Users/Brwong/Downloads/FacebookSDKs-iOS-20150910/Bolts.framework/Headers/Bolts.h"
+- "/Users/Brwong/Downloads/FacebookSDKs-iOS-20150910/Bolts.framework/Modules/module.modulemap"
+- "/Users/Brwong/Downloads/FacebookSDKs-iOS-20150910/FBSDKCoreKit.framework/Headers/FBSDKGraphRequestDataAttachment.h"
+- "/Users/Brwong/Downloads/FacebookSDKs-iOS-20150910/FBSDKCoreKit.framework/Headers/FBSDKGraphErrorRecoveryProcessor.h"
+- "/Users/Brwong/Downloads/FacebookSDKs-iOS-20150910/FBSDKCoreKit.framework/Headers/FBSDKAppLinkResolver.h"
+- "/Users/Brwong/Downloads/FacebookSDKs-iOS-20150910/FBSDKCoreKit.framework/Headers/FBSDKButton.h"
+- "/Users/Brwong/Downloads/FacebookSDKs-iOS-20150910/FBSDKCoreKit.framework/Headers/FBSDKUtility.h"
+- "/Users/Brwong/Downloads/FacebookSDKs-iOS-20150910/FBSDKCoreKit.framework/Headers/FBSDKTestUsersManager.h"
+- "/Users/Brwong/Downloads/FacebookSDKs-iOS-20150910/FBSDKCoreKit.framework/Headers/FBSDKSettings.h"
+- "/Users/Brwong/Downloads/FacebookSDKs-iOS-20150910/FBSDKCoreKit.framework/Headers/FBSDKProfilePictureView.h"
+- "/Users/Brwong/Downloads/FacebookSDKs-iOS-20150910/FBSDKCoreKit.framework/Headers/FBSDKProfile.h"
+- "/Users/Brwong/Downloads/FacebookSDKs-iOS-20150910/FBSDKCoreKit.framework/Headers/FBSDKMutableCopying.h"
+- "/Users/Brwong/Downloads/FacebookSDKs-iOS-20150910/FBSDKCoreKit.framework/Headers/FBSDKGraphRequest.h"
+- "/Users/Brwong/Downloads/FacebookSDKs-iOS-20150910/FBSDKCoreKit.framework/Headers/FBSDKConstants.h"
+- "/Users/Brwong/Downloads/FacebookSDKs-iOS-20150910/FBSDKCoreKit.framework/Headers/FBSDKApplicationDelegate.h"
+- "/Users/Brwong/Downloads/FacebookSDKs-iOS-20150910/FBSDKCoreKit.framework/Headers/FBSDKAppLinkUtility.h"
+- "/Users/Brwong/Downloads/FacebookSDKs-iOS-20150910/FBSDKCoreKit.framework/Headers/FBSDKAppEvents.h"
+- "/Users/Brwong/Downloads/FacebookSDKs-iOS-20150910/FBSDKCoreKit.framework/Headers/FBSDKMacros.h"
+- "/Users/Brwong/Downloads/FacebookSDKs-iOS-20150910/FBSDKCoreKit.framework/Headers/FBSDKGraphRequestConnection.h"
+- "/Users/Brwong/Downloads/FacebookSDKs-iOS-20150910/FBSDKCoreKit.framework/Headers/FBSDKCopying.h"
+- "/Users/Brwong/Downloads/FacebookSDKs-iOS-20150910/FBSDKCoreKit.framework/Headers/FBSDKAccessToken.h"
+- "/Users/Brwong/Downloads/FacebookSDKs-iOS-20150910/FBSDKCoreKit.framework/Headers/FBSDKCoreKit.h"
+- "/Users/Brwong/Downloads/FacebookSDKs-iOS-20150910/FBSDKCoreKit.framework/Modules/module.modulemap"
+- "/Users/Brwong/Downloads/FacebookSDKs-iOS-20150910/FBSDKLoginKit.framework/Headers/FBSDKLoginTooltipView.h"
+- "/Users/Brwong/Downloads/FacebookSDKs-iOS-20150910/FBSDKLoginKit.framework/Headers/FBSDKLoginManagerLoginResult.h"
+- "/Users/Brwong/Downloads/FacebookSDKs-iOS-20150910/FBSDKLoginKit.framework/Headers/FBSDKLoginConstants.h"
+- "/Users/Brwong/Downloads/FacebookSDKs-iOS-20150910/FBSDKLoginKit.framework/Headers/FBSDKTooltipView.h"
+- "/Users/Brwong/Downloads/FacebookSDKs-iOS-20150910/FBSDKLoginKit.framework/Headers/FBSDKLoginManager.h"
+- "/Users/Brwong/Downloads/FacebookSDKs-iOS-20150910/FBSDKLoginKit.framework/Headers/FBSDKLoginButton.h"
+- "/Users/Brwong/Downloads/FacebookSDKs-iOS-20150910/FBSDKLoginKit.framework/Headers/FBSDKLoginKit.h"
+- "/Users/Brwong/Downloads/FacebookSDKs-iOS-20150910/FBSDKLoginKit.framework/Modules/module.modulemap"
+interface-hash: "3183d74e9ab302e65ed2fd9fbee37beb"

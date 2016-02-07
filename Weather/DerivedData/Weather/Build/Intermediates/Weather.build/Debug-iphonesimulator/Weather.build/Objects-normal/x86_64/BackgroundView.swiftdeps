@@ -1,0 +1,445 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "BackgroundView"
+provides-nominal:
+- "C7Weather14BackgroundView"
+provides-member:
+- ["C7Weather14BackgroundView", ""]
+provides-dynamic-lookup:
+- "drawRect"
+depends-top-level:
+- !private "Array"
+- "CGRect"
+- !private "CGContextDrawLinearGradient"
+- "BackgroundView"
+- !private "CGRectMake"
+- !private "UIGraphicsGetCurrentContext"
+- !private "UIBezierPath"
+- !private "UIColor"
+- "UIView"
+- !private "CGContextSaveGState"
+- !private "CGContextRestoreGState"
+- !private "CGColorSpaceCreateDeviceRGB"
+- !private "CGGradientCreateWithColors"
+- !private "CGPointMake"
+depends-member:
+- !private ["PSs9AnyObject", "CGColor"]
+- !private ["PSs9AnyObject", "CGColorSpaceCreateDeviceRGB"]
+- !private ["PSs9AnyObject", "CGContextDrawLinearGradient"]
+- !private ["PSs9AnyObject", "CGContextRestoreGState"]
+- !private ["PSs9AnyObject", "CGContextSaveGState"]
+- !private ["PSs9AnyObject", "CGGradientCreateWithColors"]
+- !private ["PSs9AnyObject", "CGPointMake"]
+- !private ["PSs9AnyObject", "CGRectMake"]
+- !private ["PSs9AnyObject", "UIBezierPath"]
+- !private ["PSs9AnyObject", "UIColor"]
+- !private ["PSs9AnyObject", "UIGraphicsGetCurrentContext"]
+- !private ["PSs9AnyObject", "addClip"]
+- ["PSs9AnyObject", "drawRect"]
+- !private ["PSs9AnyObject", "frame"]
+- ["PSs9AnyObject", "init"]
+- ["PSs9AnyObject", ""]
+- !private ["Sa", "Element"]
+- !private ["PSs23ArrayLiteralConvertible", "DrawsAfterEndLocation"]
+- !private ["PSs23ArrayLiteralConvertible", "DrawsBeforeStartLocation"]
+- !private ["PSs23ArrayLiteralConvertible", "Element"]
+- !private ["C7Weather14BackgroundView", "CGColorSpaceCreateDeviceRGB"]
+- !private ["C7Weather14BackgroundView", "CGContextDrawLinearGradient"]
+- !private ["C7Weather14BackgroundView", "CGContextRestoreGState"]
+- !private ["C7Weather14BackgroundView", "CGContextSaveGState"]
+- !private ["C7Weather14BackgroundView", "CGGradientCreateWithColors"]
+- !private ["C7Weather14BackgroundView", "CGPointMake"]
+- ["C7Weather14BackgroundView", "CGRect"]
+- !private ["C7Weather14BackgroundView", "CGRectMake"]
+- !private ["C7Weather14BackgroundView", "UIBezierPath"]
+- !private ["C7Weather14BackgroundView", "UIColor"]
+- !private ["C7Weather14BackgroundView", "UIGraphicsGetCurrentContext"]
+- ["C7Weather14BackgroundView", "deinit"]
+- ["C7Weather14BackgroundView", "drawRect"]
+- !private ["C7Weather14BackgroundView", "frame"]
+- ["C7Weather14BackgroundView", "init"]
+- !private ["PSs22BidirectionalIndexType", "Element"]
+- !private ["CSo7CFArray", "deinit"]
+- !private ["V12CoreGraphics7CGFloat", "deinit"]
+- !private ["VSC24CGGradientDrawingOptions", "DrawsAfterEndLocation"]
+- !private ["VSC24CGGradientDrawingOptions", "DrawsBeforeStartLocation"]
+- !private ["VSC24CGGradientDrawingOptions", "Element"]
+- !private ["VSC6CGRect", "height"]
+- !private ["VSC6CGRect", "width"]
+- !private ["PSs11CVarArgType", "CGColor"]
+- !private ["PSs11CVarArgType", "CGColorSpaceCreateDeviceRGB"]
+- !private ["PSs11CVarArgType", "CGContextDrawLinearGradient"]
+- !private ["PSs11CVarArgType", "CGContextRestoreGState"]
+- !private ["PSs11CVarArgType", "CGContextSaveGState"]
+- !private ["PSs11CVarArgType", "CGGradientCreateWithColors"]
+- !private ["PSs11CVarArgType", "CGPointMake"]
+- !private ["PSs11CVarArgType", "CGRectMake"]
+- !private ["PSs11CVarArgType", "Element"]
+- !private ["PSs11CVarArgType", "UIBezierPath"]
+- !private ["PSs11CVarArgType", "UIColor"]
+- !private ["PSs11CVarArgType", "UIGraphicsGetCurrentContext"]
+- !private ["PSs11CVarArgType", "addClip"]
+- ["PSs11CVarArgType", "drawRect"]
+- !private ["PSs11CVarArgType", "frame"]
+- ["PSs11CVarArgType", "init"]
+- ["PSs11CVarArgType", ""]
+- !private ["PSs14CollectionType", "Element"]
+- !private ["PSs10Comparable", "Element"]
+- !private ["PSs28CustomDebugStringConvertible", "Element"]
+- !private ["PSs23CustomStringConvertible", "CGColor"]
+- !private ["PSs23CustomStringConvertible", "CGColorSpaceCreateDeviceRGB"]
+- !private ["PSs23CustomStringConvertible", "CGContextDrawLinearGradient"]
+- !private ["PSs23CustomStringConvertible", "CGContextRestoreGState"]
+- !private ["PSs23CustomStringConvertible", "CGContextSaveGState"]
+- !private ["PSs23CustomStringConvertible", "CGGradientCreateWithColors"]
+- !private ["PSs23CustomStringConvertible", "CGPointMake"]
+- !private ["PSs23CustomStringConvertible", "CGRectMake"]
+- !private ["PSs23CustomStringConvertible", "Element"]
+- !private ["PSs23CustomStringConvertible", "UIBezierPath"]
+- !private ["PSs23CustomStringConvertible", "UIColor"]
+- !private ["PSs23CustomStringConvertible", "UIGraphicsGetCurrentContext"]
+- !private ["PSs23CustomStringConvertible", "addClip"]
+- ["PSs23CustomStringConvertible", "drawRect"]
+- !private ["PSs23CustomStringConvertible", "frame"]
+- ["PSs23CustomStringConvertible", "init"]
+- ["PSs23CustomStringConvertible", ""]
+- !private ["PSs9Equatable", "CGColor"]
+- !private ["PSs9Equatable", "CGColorSpaceCreateDeviceRGB"]
+- !private ["PSs9Equatable", "CGContextDrawLinearGradient"]
+- !private ["PSs9Equatable", "CGContextRestoreGState"]
+- !private ["PSs9Equatable", "CGContextSaveGState"]
+- !private ["PSs9Equatable", "CGGradientCreateWithColors"]
+- !private ["PSs9Equatable", "CGPointMake"]
+- !private ["PSs9Equatable", "CGRectMake"]
+- !private ["PSs9Equatable", "DrawsAfterEndLocation"]
+- !private ["PSs9Equatable", "DrawsBeforeStartLocation"]
+- !private ["PSs9Equatable", "Element"]
+- !private ["PSs9Equatable", "UIBezierPath"]
+- !private ["PSs9Equatable", "UIColor"]
+- !private ["PSs9Equatable", "UIGraphicsGetCurrentContext"]
+- !private ["PSs9Equatable", "addClip"]
+- ["PSs9Equatable", "drawRect"]
+- !private ["PSs9Equatable", "frame"]
+- !private ["PSs9Equatable", "height"]
+- ["PSs9Equatable", "init"]
+- !private ["PSs9Equatable", "width"]
+- ["PSs9Equatable", ""]
+- !private ["PSs16ForwardIndexType", "Element"]
+- !private ["PSs8Hashable", "CGColor"]
+- !private ["PSs8Hashable", "CGColorSpaceCreateDeviceRGB"]
+- !private ["PSs8Hashable", "CGContextDrawLinearGradient"]
+- !private ["PSs8Hashable", "CGContextRestoreGState"]
+- !private ["PSs8Hashable", "CGContextSaveGState"]
+- !private ["PSs8Hashable", "CGGradientCreateWithColors"]
+- !private ["PSs8Hashable", "CGPointMake"]
+- !private ["PSs8Hashable", "CGRectMake"]
+- !private ["PSs8Hashable", "Element"]
+- !private ["PSs8Hashable", "UIBezierPath"]
+- !private ["PSs8Hashable", "UIColor"]
+- !private ["PSs8Hashable", "UIGraphicsGetCurrentContext"]
+- !private ["PSs8Hashable", "addClip"]
+- ["PSs8Hashable", "drawRect"]
+- !private ["PSs8Hashable", "frame"]
+- ["PSs8Hashable", "init"]
+- ["PSs8Hashable", ""]
+- !private ["PSs9Indexable", "Element"]
+- !private ["PSs21MutableCollectionType", "Element"]
+- !private ["PSs16MutableIndexable", "Element"]
+- !private ["PSs16MutableSliceable", "Element"]
+- !private ["PSo8NSCoding", "CGColor"]
+- !private ["PSo8NSCoding", "CGColorSpaceCreateDeviceRGB"]
+- !private ["PSo8NSCoding", "CGContextDrawLinearGradient"]
+- !private ["PSo8NSCoding", "CGContextRestoreGState"]
+- !private ["PSo8NSCoding", "CGContextSaveGState"]
+- !private ["PSo8NSCoding", "CGGradientCreateWithColors"]
+- !private ["PSo8NSCoding", "CGPointMake"]
+- !private ["PSo8NSCoding", "CGRectMake"]
+- !private ["PSo8NSCoding", "UIBezierPath"]
+- !private ["PSo8NSCoding", "UIColor"]
+- !private ["PSo8NSCoding", "UIGraphicsGetCurrentContext"]
+- !private ["PSo8NSCoding", "addClip"]
+- ["PSo8NSCoding", "drawRect"]
+- !private ["PSo8NSCoding", "frame"]
+- ["PSo8NSCoding", "init"]
+- ["PSo8NSCoding", ""]
+- !private ["PSo9NSCopying", "CGColor"]
+- !private ["PSo9NSCopying", "addClip"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["CSo8NSObject", "CGColor"]
+- !private ["CSo8NSObject", "CGColorSpaceCreateDeviceRGB"]
+- !private ["CSo8NSObject", "CGContextDrawLinearGradient"]
+- !private ["CSo8NSObject", "CGContextRestoreGState"]
+- !private ["CSo8NSObject", "CGContextSaveGState"]
+- !private ["CSo8NSObject", "CGGradientCreateWithColors"]
+- !private ["CSo8NSObject", "CGPointMake"]
+- ["CSo8NSObject", "CGRect"]
+- !private ["CSo8NSObject", "CGRectMake"]
+- !private ["CSo8NSObject", "UIBezierPath"]
+- !private ["CSo8NSObject", "UIColor"]
+- !private ["CSo8NSObject", "UIGraphicsGetCurrentContext"]
+- !private ["CSo8NSObject", "addClip"]
+- ["CSo8NSObject", "drawRect"]
+- !private ["CSo8NSObject", "frame"]
+- ["CSo8NSObject", "init"]
+- !private ["PSo16NSObjectProtocol", "CGColor"]
+- !private ["PSo16NSObjectProtocol", "CGColorSpaceCreateDeviceRGB"]
+- !private ["PSo16NSObjectProtocol", "CGContextDrawLinearGradient"]
+- !private ["PSo16NSObjectProtocol", "CGContextRestoreGState"]
+- !private ["PSo16NSObjectProtocol", "CGContextSaveGState"]
+- !private ["PSo16NSObjectProtocol", "CGGradientCreateWithColors"]
+- !private ["PSo16NSObjectProtocol", "CGPointMake"]
+- !private ["PSo16NSObjectProtocol", "CGRectMake"]
+- !private ["PSo16NSObjectProtocol", "UIBezierPath"]
+- !private ["PSo16NSObjectProtocol", "UIColor"]
+- !private ["PSo16NSObjectProtocol", "UIGraphicsGetCurrentContext"]
+- !private ["PSo16NSObjectProtocol", "addClip"]
+- ["PSo16NSObjectProtocol", "drawRect"]
+- !private ["PSo16NSObjectProtocol", "frame"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo14NSSecureCoding", "CGColor"]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["PSs21NilLiteralConvertible", "Element"]
+- !private ["PSs13OptionSetType", "DrawsAfterEndLocation"]
+- !private ["PSs13OptionSetType", "DrawsBeforeStartLocation"]
+- !private ["PSs13OptionSetType", "Element"]
+- !private ["Sq", "Element"]
+- !private ["Sq", "deinit"]
+- !private ["PSs21RandomAccessIndexType", "Element"]
+- !private ["PSs30RangeReplaceableCollectionType", "Element"]
+- !private ["PSs16RawRepresentable", "DrawsAfterEndLocation"]
+- !private ["PSs16RawRepresentable", "DrawsBeforeStartLocation"]
+- !private ["PSs16RawRepresentable", "Element"]
+- !private ["PSs12SequenceType", "Element"]
+- !private ["PSs14SetAlgebraType", "DrawsAfterEndLocation"]
+- !private ["PSs14SetAlgebraType", "DrawsBeforeStartLocation"]
+- !private ["PSs14SetAlgebraType", "Element"]
+- !private ["PSs10Strideable", "Element"]
+- !private ["PSo29UIAccessibilityIdentification", "CGColorSpaceCreateDeviceRGB"]
+- !private ["PSo29UIAccessibilityIdentification", "CGContextDrawLinearGradient"]
+- !private ["PSo29UIAccessibilityIdentification", "CGContextRestoreGState"]
+- !private ["PSo29UIAccessibilityIdentification", "CGContextSaveGState"]
+- !private ["PSo29UIAccessibilityIdentification", "CGGradientCreateWithColors"]
+- !private ["PSo29UIAccessibilityIdentification", "CGPointMake"]
+- !private ["PSo29UIAccessibilityIdentification", "CGRectMake"]
+- !private ["PSo29UIAccessibilityIdentification", "UIBezierPath"]
+- !private ["PSo29UIAccessibilityIdentification", "UIColor"]
+- !private ["PSo29UIAccessibilityIdentification", "UIGraphicsGetCurrentContext"]
+- ["PSo29UIAccessibilityIdentification", "drawRect"]
+- !private ["PSo29UIAccessibilityIdentification", "frame"]
+- ["PSo29UIAccessibilityIdentification", "init"]
+- ["PSo29UIAccessibilityIdentification", ""]
+- !private ["PSo12UIAppearance", "CGColorSpaceCreateDeviceRGB"]
+- !private ["PSo12UIAppearance", "CGContextDrawLinearGradient"]
+- !private ["PSo12UIAppearance", "CGContextRestoreGState"]
+- !private ["PSo12UIAppearance", "CGContextSaveGState"]
+- !private ["PSo12UIAppearance", "CGGradientCreateWithColors"]
+- !private ["PSo12UIAppearance", "CGPointMake"]
+- !private ["PSo12UIAppearance", "CGRectMake"]
+- !private ["PSo12UIAppearance", "UIBezierPath"]
+- !private ["PSo12UIAppearance", "UIColor"]
+- !private ["PSo12UIAppearance", "UIGraphicsGetCurrentContext"]
+- ["PSo12UIAppearance", "drawRect"]
+- !private ["PSo12UIAppearance", "frame"]
+- ["PSo12UIAppearance", "init"]
+- ["PSo12UIAppearance", ""]
+- !private ["PSo21UIAppearanceContainer", "CGColorSpaceCreateDeviceRGB"]
+- !private ["PSo21UIAppearanceContainer", "CGContextDrawLinearGradient"]
+- !private ["PSo21UIAppearanceContainer", "CGContextRestoreGState"]
+- !private ["PSo21UIAppearanceContainer", "CGContextSaveGState"]
+- !private ["PSo21UIAppearanceContainer", "CGGradientCreateWithColors"]
+- !private ["PSo21UIAppearanceContainer", "CGPointMake"]
+- !private ["PSo21UIAppearanceContainer", "CGRectMake"]
+- !private ["PSo21UIAppearanceContainer", "UIBezierPath"]
+- !private ["PSo21UIAppearanceContainer", "UIColor"]
+- !private ["PSo21UIAppearanceContainer", "UIGraphicsGetCurrentContext"]
+- ["PSo21UIAppearanceContainer", "drawRect"]
+- !private ["PSo21UIAppearanceContainer", "frame"]
+- ["PSo21UIAppearanceContainer", "init"]
+- ["PSo21UIAppearanceContainer", ""]
+- !private ["CSo12UIBezierPath", "addClip"]
+- !private ["CSo12UIBezierPath", "init"]
+- !private ["CSo7UIColor", "CGColor"]
+- !private ["CSo7UIColor", "init"]
+- !private ["PSo17UICoordinateSpace", "CGColorSpaceCreateDeviceRGB"]
+- !private ["PSo17UICoordinateSpace", "CGContextDrawLinearGradient"]
+- !private ["PSo17UICoordinateSpace", "CGContextRestoreGState"]
+- !private ["PSo17UICoordinateSpace", "CGContextSaveGState"]
+- !private ["PSo17UICoordinateSpace", "CGGradientCreateWithColors"]
+- !private ["PSo17UICoordinateSpace", "CGPointMake"]
+- !private ["PSo17UICoordinateSpace", "CGRectMake"]
+- !private ["PSo17UICoordinateSpace", "UIBezierPath"]
+- !private ["PSo17UICoordinateSpace", "UIColor"]
+- !private ["PSo17UICoordinateSpace", "UIGraphicsGetCurrentContext"]
+- ["PSo17UICoordinateSpace", "drawRect"]
+- !private ["PSo17UICoordinateSpace", "frame"]
+- ["PSo17UICoordinateSpace", "init"]
+- ["PSo17UICoordinateSpace", ""]
+- !private ["PSo13UIDynamicItem", "CGColorSpaceCreateDeviceRGB"]
+- !private ["PSo13UIDynamicItem", "CGContextDrawLinearGradient"]
+- !private ["PSo13UIDynamicItem", "CGContextRestoreGState"]
+- !private ["PSo13UIDynamicItem", "CGContextSaveGState"]
+- !private ["PSo13UIDynamicItem", "CGGradientCreateWithColors"]
+- !private ["PSo13UIDynamicItem", "CGPointMake"]
+- !private ["PSo13UIDynamicItem", "CGRectMake"]
+- !private ["PSo13UIDynamicItem", "UIBezierPath"]
+- !private ["PSo13UIDynamicItem", "UIColor"]
+- !private ["PSo13UIDynamicItem", "UIGraphicsGetCurrentContext"]
+- ["PSo13UIDynamicItem", "drawRect"]
+- !private ["PSo13UIDynamicItem", "frame"]
+- ["PSo13UIDynamicItem", "init"]
+- ["PSo13UIDynamicItem", ""]
+- !private ["PSo18UIFocusEnvironment", "CGColorSpaceCreateDeviceRGB"]
+- !private ["PSo18UIFocusEnvironment", "CGContextDrawLinearGradient"]
+- !private ["PSo18UIFocusEnvironment", "CGContextRestoreGState"]
+- !private ["PSo18UIFocusEnvironment", "CGContextSaveGState"]
+- !private ["PSo18UIFocusEnvironment", "CGGradientCreateWithColors"]
+- !private ["PSo18UIFocusEnvironment", "CGPointMake"]
+- !private ["PSo18UIFocusEnvironment", "CGRectMake"]
+- !private ["PSo18UIFocusEnvironment", "UIBezierPath"]
+- !private ["PSo18UIFocusEnvironment", "UIColor"]
+- !private ["PSo18UIFocusEnvironment", "UIGraphicsGetCurrentContext"]
+- ["PSo18UIFocusEnvironment", "drawRect"]
+- !private ["PSo18UIFocusEnvironment", "frame"]
+- ["PSo18UIFocusEnvironment", "init"]
+- ["PSo18UIFocusEnvironment", ""]
+- !private ["CSo11UIResponder", "CGColorSpaceCreateDeviceRGB"]
+- !private ["CSo11UIResponder", "CGContextDrawLinearGradient"]
+- !private ["CSo11UIResponder", "CGContextRestoreGState"]
+- !private ["CSo11UIResponder", "CGContextSaveGState"]
+- !private ["CSo11UIResponder", "CGGradientCreateWithColors"]
+- !private ["CSo11UIResponder", "CGPointMake"]
+- ["CSo11UIResponder", "CGRect"]
+- !private ["CSo11UIResponder", "CGRectMake"]
+- !private ["CSo11UIResponder", "UIBezierPath"]
+- !private ["CSo11UIResponder", "UIColor"]
+- !private ["CSo11UIResponder", "UIGraphicsGetCurrentContext"]
+- ["CSo11UIResponder", "drawRect"]
+- !private ["CSo11UIResponder", "frame"]
+- ["CSo11UIResponder", "init"]
+- !private ["PSo18UITraitEnvironment", "CGColorSpaceCreateDeviceRGB"]
+- !private ["PSo18UITraitEnvironment", "CGContextDrawLinearGradient"]
+- !private ["PSo18UITraitEnvironment", "CGContextRestoreGState"]
+- !private ["PSo18UITraitEnvironment", "CGContextSaveGState"]
+- !private ["PSo18UITraitEnvironment", "CGGradientCreateWithColors"]
+- !private ["PSo18UITraitEnvironment", "CGPointMake"]
+- !private ["PSo18UITraitEnvironment", "CGRectMake"]
+- !private ["PSo18UITraitEnvironment", "UIBezierPath"]
+- !private ["PSo18UITraitEnvironment", "UIColor"]
+- !private ["PSo18UITraitEnvironment", "UIGraphicsGetCurrentContext"]
+- ["PSo18UITraitEnvironment", "drawRect"]
+- !private ["PSo18UITraitEnvironment", "frame"]
+- ["PSo18UITraitEnvironment", "init"]
+- ["PSo18UITraitEnvironment", ""]
+- !private ["CSo6UIView", "CGColorSpaceCreateDeviceRGB"]
+- !private ["CSo6UIView", "CGContextDrawLinearGradient"]
+- !private ["CSo6UIView", "CGContextRestoreGState"]
+- !private ["CSo6UIView", "CGContextSaveGState"]
+- !private ["CSo6UIView", "CGGradientCreateWithColors"]
+- !private ["CSo6UIView", "CGPointMake"]
+- ["CSo6UIView", "CGRect"]
+- !private ["CSo6UIView", "CGRectMake"]
+- !private ["CSo6UIView", "UIBezierPath"]
+- !private ["CSo6UIView", "UIColor"]
+- !private ["CSo6UIView", "UIGraphicsGetCurrentContext"]
+- ["CSo6UIView", "drawRect"]
+- !private ["CSo6UIView", "frame"]
+- ["CSo6UIView", "init"]
+- ["CSo6UIView", ""]
+- !private ["VSs13UnsafePointer", "Element"]
+- !private ["VSs13UnsafePointer", "deinit"]
+- !private ["PSs10_ArrayType", "Element"]
+- !private ["PSs24_ColorLiteralConvertible", "CGColor"]
+- !private ["PSs24_ColorLiteralConvertible", "init"]
+- !private ["PSs24_DestructorSafeContainer", "Element"]
+- !private ["PSs14_Incrementable", "Element"]
+- !private ["PSs21_ObjectiveCBridgeable", "Element"]
+- !private ["PSs12_PointerType", "Element"]
+- !private ["PSs22_RandomAccessAmbiguity", "Element"]
+- !private ["PSs12_Reflectable", "CGColorSpaceCreateDeviceRGB"]
+- !private ["PSs12_Reflectable", "CGContextDrawLinearGradient"]
+- !private ["PSs12_Reflectable", "CGContextRestoreGState"]
+- !private ["PSs12_Reflectable", "CGContextSaveGState"]
+- !private ["PSs12_Reflectable", "CGGradientCreateWithColors"]
+- !private ["PSs12_Reflectable", "CGPointMake"]
+- !private ["PSs12_Reflectable", "CGRectMake"]
+- !private ["PSs12_Reflectable", "Element"]
+- !private ["PSs12_Reflectable", "UIBezierPath"]
+- !private ["PSs12_Reflectable", "UIColor"]
+- !private ["PSs12_Reflectable", "UIGraphicsGetCurrentContext"]
+- ["PSs12_Reflectable", "drawRect"]
+- !private ["PSs12_Reflectable", "frame"]
+- !private ["PSs12_Reflectable", "height"]
+- ["PSs12_Reflectable", "init"]
+- !private ["PSs12_Reflectable", "width"]
+- ["PSs12_Reflectable", ""]
+- !private ["PSs11_Strideable", "Element"]
+depends-nominal:
+- "PSs9AnyObject"
+- !private "Sa"
+- !private "PSs23ArrayLiteralConvertible"
+- "C7Weather14BackgroundView"
+- !private "PSs22BidirectionalIndexType"
+- !private "CSo7CFArray"
+- !private "V12CoreGraphics7CGFloat"
+- !private "VSC24CGGradientDrawingOptions"
+- !private "VSC6CGRect"
+- "PSs11CVarArgType"
+- !private "PSs14CollectionType"
+- !private "PSs10Comparable"
+- !private "PSs28CustomDebugStringConvertible"
+- "PSs23CustomStringConvertible"
+- "PSs9Equatable"
+- !private "PSs16ForwardIndexType"
+- "PSs8Hashable"
+- !private "PSs9Indexable"
+- !private "PSs21MutableCollectionType"
+- !private "PSs16MutableIndexable"
+- !private "PSs16MutableSliceable"
+- "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "PSs21NilLiteralConvertible"
+- !private "PSs13OptionSetType"
+- !private "Sq"
+- !private "PSs21RandomAccessIndexType"
+- !private "PSs30RangeReplaceableCollectionType"
+- !private "PSs16RawRepresentable"
+- !private "PSs12SequenceType"
+- !private "PSs14SetAlgebraType"
+- !private "PSs10Strideable"
+- "PSo29UIAccessibilityIdentification"
+- "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- !private "CSo12UIBezierPath"
+- !private "CSo7UIColor"
+- "PSo17UICoordinateSpace"
+- "PSo13UIDynamicItem"
+- "PSo18UIFocusEnvironment"
+- "CSo11UIResponder"
+- "PSo18UITraitEnvironment"
+- "CSo6UIView"
+- !private "VSs13UnsafePointer"
+- !private "PSs10_ArrayType"
+- !private "PSs24_ColorLiteralConvertible"
+- !private "PSs24_DestructorSafeContainer"
+- !private "PSs14_Incrementable"
+- !private "PSs21_ObjectiveCBridgeable"
+- !private "PSs12_PointerType"
+- !private "PSs22_RandomAccessAmbiguity"
+- "PSs12_Reflectable"
+- !private "PSs11_Strideable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreLocation.swiftmodule"
+interface-hash: "687e1266dbeab4b237084e22fa31b96e"

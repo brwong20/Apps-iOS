@@ -1,0 +1,17 @@
+version: "Apple Swift version 2.1.1 (swiftlang-700.1.101.15 clang-700.1.81)"
+options: "1d9a3aeaaee562d877c8a81a7a758d3b"
+build_time: [503391846, 636664000]
+inputs:
+  "/Users/Brwong/Desktop/iOS Apps/On The Map/On The Map/MapGeoCoder.swift": [496485820, 0]
+  "/Users/Brwong/Desktop/iOS Apps/On The Map/On The Map/MapViewController.swift": [496624801, 0]
+  "/Users/Brwong/Desktop/iOS Apps/On The Map/On The Map/AppDelegate.swift": [496485486, 0]
+  "/Users/Brwong/Desktop/iOS Apps/On The Map/On The Map/UdacityClient.swift": [499590069, 0]
+  "/Users/Brwong/Desktop/iOS Apps/On The Map/On The Map/UdacityConvenience.swift": [496618510, 0]
+  "/Users/Brwong/Desktop/iOS Apps/On The Map/On The Map/ParseConstants.swift": [496398143, 0]
+  "/Users/Brwong/Downloads/SwiftyJSON-master 3/Source/SwiftyJSON.swift": [499578932, 0]
+  "/Users/Brwong/Desktop/iOS Apps/On The Map/On The Map/ParseConvenience.swift": [496485486, 0]
+  "/Users/Brwong/Desktop/iOS Apps/On The Map/On The Map/UdacityConstants.swift": [499590153, 0]
+  "/Users/Brwong/Desktop/iOS Apps/On The Map/On The Map/ParseStudent.swift": [495855999, 0]
+  "/Users/Brwong/Desktop/iOS Apps/On The Map/On The Map/ParseClient.swift": [496485689, 0]
+  "/Users/Brwong/Desktop/iOS Apps/On The Map/On The Map/LoginViewController.swift": [496624383, 0]
+  "/Users/Brwong/Desktop/iOS Apps/On The Map/On The Map/PinTableViewController.swift": [499590153, 0]

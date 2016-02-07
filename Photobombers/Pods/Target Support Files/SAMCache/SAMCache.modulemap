@@ -1,0 +1,6 @@
+module SAMCache {
+  umbrella header "SAMCache-umbrella.h"
+
+  export *
+  module * { export * }
+}

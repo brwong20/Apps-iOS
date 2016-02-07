@@ -1,0 +1,16 @@
+version: "Apple Swift version 2.1 (swiftlang-700.1.101.6 clang-700.1.76)"
+options: "d302badc86073c35e17920b9be56dd5d"
+build_time: [500985051, 21984000]
+inputs:
+  "/Users/Brwong/Desktop/iOS Apps/Weather/Weather/WeeklyTableViewCell.swift": [497420555, 0]
+  "/Users/Brwong/Desktop/iOS Apps/Weather/Weather/NetworkOperation.swift": [497138465, 0]
+  "/Users/Brwong/Desktop/iOS Apps/Weather/Weather/BackgroundView.swift": [497002817, 0]
+  "/Users/Brwong/Desktop/iOS Apps/Weather/Weather/DetailViewController.swift": [497519097, 0]
+  "/Users/Brwong/Desktop/iOS Apps/Weather/Weather/IconSelection.swift": [497407288, 0]
+  "/Users/Brwong/Desktop/iOS Apps/Weather/Weather/ForecastData.swift": [497409172, 0]
+  "/Users/Brwong/Desktop/iOS Apps/Weather/Weather/DetailBackgroundView.swift": [497509909, 0]
+  "/Users/Brwong/Desktop/iOS Apps/Weather/Weather/AppDelegate.swift": [497509435, 0]
+  "/Users/Brwong/Desktop/iOS Apps/Weather/Weather/ForecastClient.swift": [497409172, 0]
+  "/Users/Brwong/Desktop/iOS Apps/Weather/Weather/DailyWeather.swift": [497520827, 0]
+  "/Users/Brwong/Desktop/iOS Apps/Weather/Weather/CurrentWeather.swift": [497407288, 0]
+  "/Users/Brwong/Desktop/iOS Apps/Weather/Weather/WeeklyTableView.swift": [497520683, 0]

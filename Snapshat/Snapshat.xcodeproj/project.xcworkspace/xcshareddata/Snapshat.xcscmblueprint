@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "69D8E01839E24C02C90F61D2DB23D944C7A96CB6",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "C17526F97783298D1E79F4B16599DE7C0655D2D1" : 0,
+    "69D8E01839E24C02C90F61D2DB23D944C7A96CB6" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "5926848F-D030-424A-AE3B-05428CBDC8BD",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "C17526F97783298D1E79F4B16599DE7C0655D2D1" : "",
+    "69D8E01839E24C02C90F61D2DB23D944C7A96CB6" : "Snapshat"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Snapshat",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Snapshat.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/brwong20\/Snapshat.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "69D8E01839E24C02C90F61D2DB23D944C7A96CB6"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/brwong20\/iOS-Apps.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "C17526F97783298D1E79F4B16599DE7C0655D2D1"
+    }
+  ]
+}

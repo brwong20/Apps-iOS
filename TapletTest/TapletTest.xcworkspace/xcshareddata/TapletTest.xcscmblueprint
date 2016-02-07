@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "C17526F97783298D1E79F4B16599DE7C0655D2D1",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "69D8E01839E24C02C90F61D2DB23D944C7A96CB6" : 0,
+    "C17526F97783298D1E79F4B16599DE7C0655D2D1" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "E3512CC1-F0D0-4528-847F-A809CF8F164E",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "69D8E01839E24C02C90F61D2DB23D944C7A96CB6" : "iOS%20Apps\/Snapshat\/",
+    "C17526F97783298D1E79F4B16599DE7C0655D2D1" : "iOS%20Apps\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "TapletTest",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "TapletTest\/TapletTest.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/brwong20\/Snapshat.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "69D8E01839E24C02C90F61D2DB23D944C7A96CB6"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/brwong20\/iOS-Apps.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "C17526F97783298D1E79F4B16599DE7C0655D2D1"
+    }
+  ]
+}
