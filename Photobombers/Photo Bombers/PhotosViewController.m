@@ -201,13 +201,13 @@
             //Creates a dictionary of parsed and formatted JSON data for us to work with
             NSDictionary *responseDictionary = [NSJSONSerialization JSONObjectWithData:data options: kNilOptions error:nil];
             
+            //Retrieves all the photo data and stores in local array
+            self.photos = [responseDictionary valueForKey:@"data"];
+            
             //Updates our database (data source) with the most recent data so we can display our data each the view refreshes/loads - this is because UICollectionView cannot tell when data is empty or has changed.
             dispatch_async(dispatch_get_main_queue(), ^{
                 [self.collectionView reloadData];
             });
-            
-            //Returns all the urls for the specified path(specific value) in our dictionary.
-            self.photos = [responseDictionary valueForKey:@"data"];
             
         }];
         [task resume];//Start the download task

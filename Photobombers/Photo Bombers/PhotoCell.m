@@ -45,7 +45,6 @@
     
     //Calls the convenience method we made in PhotosController and uses our dictionary of photos, a desired size, and updates that photo with the image passed into the completion block
     [PhotosController imageForPhoto:_photo size:@"thumbnail" completion:^(UIImage *image) {
-        
         //Because our block RETURNS VOID, we can just set the image
         self.cellPhoto.image = image;
     }];

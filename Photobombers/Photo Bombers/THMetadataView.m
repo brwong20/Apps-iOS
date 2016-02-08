@@ -26,8 +26,25 @@
     
 	NSDate *createdAt = [NSDate dateWithTimeIntervalSince1970:[_photo[@"created_time"] doubleValue]];
     [self.timeButton setTitle:[createdAt sam_briefTimeInWords] forState:UIControlStateNormal];
+    
+    //Avatar
+    NSData * imageData = [[NSData alloc] initWithContentsOfURL:[NSURL URLWithString:[self.photo valueForKeyPath:@"user.profile_picture"]]];
+    UIImage *avatarImage = [UIImage imageWithData:imageData];
+    [self.avatarImageView setImage:avatarImage];
+    NSLog(@"%@", avatarImage);
+    
+    //Username
+    NSString *username = [self.photo valueForKeyPath:@"user.username"];
+    [self.usernameButton setTitle:username forState:UIControlStateNormal];
+    
+    //Likes
+    NSString *likes = [[self.photo valueForKeyPath:@"likes.count"]stringValue];
+    [self.likesButton setTitle:likes forState:UIControlStateNormal];
 
-    // TODO: Set the avatar, username, time, number of likes, and number of comments
+    //Comments
+    NSString *comments = [[self.photo valueForKeyPath:@"comments.count"]stringValue];
+    [self.commentsButton setTitle:comments forState:UIControlStateNormal];
+    
 }
 
 
@@ -35,11 +52,19 @@
 
 - (void)openUser:(id)sender {
     // open link in safari to user profile
+    NSURL *instagramURL = [NSURL URLWithString:[NSString stringWithFormat:@"instagram://user?username=%@", [self.photo valueForKeyPath:@"user.username"]]];
+    if ([[UIApplication sharedApplication] canOpenURL:instagramURL]) {
+        [[UIApplication sharedApplication] openURL:instagramURL];
+    }
 }
 
 
 - (void)openPhoto:(id)sender {
     // open link in safari to the photo page
+    NSURL *instagramURL = [NSURL URLWithString:[NSString stringWithFormat:@"instagram://media?id=%@", [self.photo valueForKey:@"id"]]];
+    if ([[UIApplication sharedApplication] canOpenURL:instagramURL]) {
+        [[UIApplication sharedApplication] openURL:instagramURL];
+    }
 }
 
 #pragma mark - UIView
